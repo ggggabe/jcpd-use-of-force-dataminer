@@ -4,33 +4,6 @@ import traceback
 import json
 from datetime import datetime
 
-GROUPS = [
-  {
-    'label': 'type',
-    'width': 100
-  },
-  {
-    'label': 'meta',
-    'width': 200
-  },
-  {
-    'label': 'subject',
-    'width': 240
-  },
-  {
-    'label': 'force',
-    'width': 130
-  },
-  {
-    'label': 'firearmsDischarge',
-    'width': 80
-  }
-]
-
-def _exit():
-  print ('exiting')
-  exit()
-
 def readable(page):
   try:
     title = ' '.join(page.crop((100, 20, page.width - 100, 60)).extract_text().split('\n'))
@@ -241,6 +214,6 @@ if __name__ == '__main__':
     filename = sys.argv[1]
   except IndexError:
     print('Error: No filetype specified')
-    _exit()
+    exit()
 
   pdfToJson(filename)
