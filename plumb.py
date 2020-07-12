@@ -149,7 +149,7 @@ def get_subject(b, p) :
 
   for (k, v) in list(zip(
     info_labels + [arrested[0], charges[0]],
-    info_values + [arrested[1], ("yes" if len(charges) == 2 else "None")]
+    info_values + [arrested[1], (charges[1] if len(charges) == 2 else "None")]
   )):
     b['subject'][k.lower()] = v
 
