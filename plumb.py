@@ -1,12 +1,14 @@
 import sys, traceback
-import pdfplumber
 import traceback
 import json
+
 from datetime import datetime
+from lib.reports import get_reports
 
 def readable(page):
   try:
     title = ' '.join(page.crop((100, 20, page.width - 100, 60)).extract_text().split('\n'))
+
   except Exception:
     title = page.crop((0, 0, 100, 30)).extract_text()
 
@@ -216,4 +218,6 @@ if __name__ == '__main__':
     print('Error: No filetype specified')
     exit()
 
-  pdfToJson(filename)
+  print('hello')
+  get_reports(filename)
+  #pdfToJson(filename)
