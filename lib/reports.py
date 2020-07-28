@@ -1,6 +1,7 @@
 import pdfplumber
 import traceback
 import json
+import os
 
 from .page import Page
 
@@ -11,6 +12,7 @@ class Incident:
     self.officers = {'unknown': []}
     self.subjects = []
     self.signatures = []
+    self.pages = []
 
     for page in leaf:
       for s in page.sections:
@@ -19,6 +21,7 @@ class Incident:
   def json(self):
     return {
       'id': self.id,
+      'pages': self.pages,
       'time': self.time,
       'date': self.date,
       'day': self.day,
@@ -28,6 +31,19 @@ class Incident:
       'officers': self.officers,
       'subjects': self.subjects
     }
+
+  def merge_incident(self, i):
+    self.pages = self.pages + i.pages
+
+    for o_key in i.officers.keys():
+      if o_key == 'unkown':
+        self.officers['unkown'] = self.officers['unknown'] + i.officers[o_key]
+        continue
+
+      if o_key not in self.officers.keys():
+        self.officers[o_key] = i.officers[o_key]
+
+    self.subjects = self.subjects + i.subjects
 
   def add_section(self, s):
     if s.type == 'A':
@@ -49,6 +65,7 @@ class Incident:
     self.day = s.data['Day of Week']
     self.location = s.data['Location']
     self.type = s.data['Type of Incident'] if isinstance(s.data['Type of Incident'], list) else []
+    self.pages.append(s.page.page_number)
 
   def add_officer(self, s):
     keys = s.data.keys()
@@ -73,6 +90,7 @@ class Incident:
   def add_subject(self, s):
     keys = s.data.keys()
     self.subjects.append({
+      'id': '{}-{}{}'.format(s.page.page_number, s.type, s.type_index),
       'sex': s.data['Sex'] if 'Sex' in keys else None,
       'race': s.data['Race'] if 'Race' in keys else None,
       'age': int(s.data['Age']) if 'Age' in keys and len(s.data['Age']) else None,
@@ -231,24 +249,29 @@ def add_incident_to_list(l, i):
 
 def add_incident_to_dict(d, i):
   if i.id in d.keys():
-    d[i.id].append(i.json())
+    d[i.id].merge_incident(i)
+    return
 
-  d[i.id] = [i.json()]
+  d[i.id] = i
 
 def pdf_to_json(filename):
   pdf = pdfplumber.open(filename)
 
   #pages = pdf.pages[95:97]
   #pages = pdf.pages[9:12]
-  #pages = pdf.pages[26:28]
-  pages = pdf.pages[:8]
+  pages = pdf.pages[26:28]
+  #pages = pdf.pages[:8]
 
   skipped = []
   leaf = []
   incidentsList = []
   incidentsDict = {}
 
+
+  i = len(pages)
+
   for page in pages:
+    i += 1
     p = Page(page)
 
     if p.report_start :
@@ -266,8 +289,25 @@ def pdf_to_json(filename):
 
     leaf.append(p)
 
+    sys.stdout.write('\r Page {} of {}'.format(page.page_number, i))
+
   if len(leaf):
+    incident = Incident(leaf)
     add_incident_to_dict(incidentsDict, incident)
     add_incident_to_list(incidentsList, incident)
+
+  if len(skipped) :
+    logpath = 'logs/skipped.json'
+    write_opt = 'a'
+
+    if not os.path.exists(logpath) :
+      write_opt = 'w+'
+
+    with open(logpath, write_opt) as log:
+      print('Failed some.')
+      json.dump(skipped, log, indent=2)
+
+  for key in incidentsDict.keys():
+    incidentsDict[key] = incidentsDict[key].json()
 
   return (incidentsList, incidentsDict)
