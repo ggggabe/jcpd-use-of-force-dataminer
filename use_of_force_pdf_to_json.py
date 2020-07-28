@@ -3,7 +3,7 @@ import traceback
 import json
 
 from datetime import datetime
-from lib.reports import get_reports
+from lib.reports import pdf_to_json
 
 def readable(page):
   try:
@@ -202,7 +202,6 @@ def pdfToJson(f) :
 
     incidents.append(blob)
 
-  f = 'json/' + datetime.now().strftime("%m.%d.%Y-%H:%M:%S") + '-use-of-force.json'
 
   with open(f, 'w+') as outfile:
     json.dump(incidents, outfile)
@@ -215,9 +214,25 @@ if __name__ == '__main__':
   try:
     filename = sys.argv[1]
   except IndexError:
+    print('Please specify a Use of Force file.')
+    exit()
+
+  try:
+    writefile = sys.argv[2]
+  except IndexError:
     print('Error: No filetype specified')
     exit()
 
-  print('hello')
-  get_reports(filename)
-  #pdfToJson(filename)
+
+  (incidents_list, incidents_dict) = pdf_to_json(filename)     # Figure out memory limit
+
+  fd = 'json/dict-' + datetime.now().strftime("%m.%d.%Y-%H:%M") + writefile
+  fl = 'json/list-' + datetime.now().strftime("%m.%d.%Y-%H:%M") + writefile
+
+  print('Writing to ', fd)
+  with open(fd, 'w+') as outfile:
+    json.dump(incidents_dict, outfile, indent=2)
+
+  print('Writing to ', fl)
+  with open(fl, 'w+') as outfile:
+    json.dump(incidents_list, outfile, indent=2)

@@ -226,7 +226,16 @@ class IncidentReport:
     o.addIncident(self.incident.id)
     self.officers.append(o)
 
-def get_reports(filename):
+def add_incident_to_list(l, i):
+  l.append(i.json())
+
+def add_incident_to_dict(d, i):
+  if i.id in d.keys():
+    d[i.id].append(i.json())
+
+  d[i.id] = [i.json()]
+
+def pdf_to_json(filename):
   pdf = pdfplumber.open(filename)
 
   #pages = pdf.pages[95:97]
@@ -236,14 +245,17 @@ def get_reports(filename):
 
   skipped = []
   leaf = []
-  incidents = []
+  incidentsList = []
+  incidentsDict = {}
 
   for page in pages:
     p = Page(page)
 
     if p.report_start :
       if len(leaf):
-        incidents.append(Incident(leaf))
+        incident = Incident(leaf)
+        add_incident_to_dict(incidentsDict, incident)
+        add_incident_to_list(incidentsList, incident)
 
       leaf = [p]
       continue
@@ -254,11 +266,8 @@ def get_reports(filename):
 
     leaf.append(p)
 
-  incidents.append(Incident(leaf))
+  if len(leaf):
+    add_incident_to_dict(incidentsDict, incident)
+    add_incident_to_list(incidentsList, incident)
 
-  for incident in incidents:
-    print(json.dumps(incident.json(), indent=2))
-
-  print(skipped)
-
-  exit()
+  return (incidentsList, incidentsDict)
