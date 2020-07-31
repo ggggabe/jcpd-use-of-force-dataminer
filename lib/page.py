@@ -6,7 +6,8 @@ def is_new_report(page):
   return page.header_text == 'JERSEY CITY POLICE DEPARTMENT USE OF FORCE REPORT'
 
 class Row:
-  tolerance = 7
+  tolerance = 5
+  firstwordX = 32
 
   def __init__(self, bbox, page):
     self.page = page.within_bbox(bbox)
@@ -16,7 +17,14 @@ class Row:
     col_x = 0
     prev_x = 0
 
+    firstword = True
+
     for word in list(sorted(self.page.crop((bbox[0], bbox[1], bbox[2], bbox[1] + 10)).extract_words(), key=lambda b: b['x0'])):
+      if word['text'] == 'Under':
+        word['x0'] = self.firstwordX
+
+      firstword = False
+
       if word['x0'] - prev_x > self.tolerance:
         cells.append((col_x, bbox[1], word['x0'] - self.tolerance, bbox[3]))
         col_x = word['x0'] - self.tolerance
@@ -25,14 +33,6 @@ class Row:
 
     cells.append((col_x, bbox[1], bbox[2], bbox[3]))
     self.cells = cells[1:]
-
-  def columns(self):
-    bbox = self.bbox
-    text = self.page.crop(
-        (bbox[0], bbox[1], bbox[2], bbox[1] + 10)
-    ).extract_words()
-
-    return text
 
 class Section:
   def __init__(self, header, bbox, page):
@@ -53,8 +53,8 @@ class Section:
 
   def __init_cells(self):
     linebreaks = sorted(list(set(map(lambda r: r['bottom'], list(filter(lambda h: h['width'] > 40 and (h['height'] == .750 or h['height'] == 1.500) , self.page.rects))))))
-
     i = 0
+
     for i in range(len(linebreaks) - 1):
       row = Row((self.bbox[0], linebreaks[i], self.bbox[2], linebreaks[i+1]), self.page)
 
@@ -62,12 +62,15 @@ class Section:
         c = self.page.crop(cell)
 
         if self.type == 'A':
-          #c.to_image().save(str(i) + '-asdf.png')
           i += 1
 
-        data = c.extract_text().split('\n')
+        cell_text = c.extract_text()
+        data = cell_text.split('\n')
+
 
         if len(list(filter(lambda r: r['height'] == r['width'], c.rects))) :
+          if (data[0] == 'Under the influence') :
+            data[0] = 'meta'
           self.data[data[0]] = extract_checkboxes(c, self.bbox)
         else:
           self.data[data[0]] = ''.join(data[1:]) if len(data) else None
