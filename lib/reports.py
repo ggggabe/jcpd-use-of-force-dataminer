@@ -1,4 +1,5 @@
 import pdfplumber, sys, traceback, json, os
+import re
 
 from .page import Page
 
@@ -6,7 +7,7 @@ class Incident:
   def __init__(self, leaf):
     sections = []
     self.id = None
-    self.officers = {'unknown': []}
+    self.officers = {}
     self.subjects = []
     self.signatures = []
     self.pages = []
@@ -24,9 +25,9 @@ class Incident:
       'date': self.date,
       'day': self.day,
       'location': self.location,
-      #'zip': self.zip,
+      'zip': self.zip,
       'type': self.type,
-      'signature': self.signatures,
+      'signatures': self.signatures,
       'officers': self.officers,
       'subjects': self.subjects
     }
@@ -36,7 +37,7 @@ class Incident:
 
     for o_key in i.officers.keys():
       if o_key == 'unkown':
-        self.officers['unkown'] = self.officers['unknown'] + i.officers[o_key]
+        print('unknown officer')
         continue
 
       if o_key not in self.officers.keys():
@@ -59,10 +60,11 @@ class Incident:
 
   def add_incident(self, s):
     self.id = s.data['INCIDENT NUMBER'].strip()
-    self.time = s.data['Time'].strip()
+    self.time = re.search('(\d{2}:\d{2})', s.data['Time'].strip()).groups()[0]
     self.date = s.data['Date'].strip()
     self.day = s.data['Day of Week'].strip()
     self.location = s.data['Location'].strip()
+    self.zip = re.search('(\d{5})', self.location).groups()[0]
     self.type = s.data['Type of Incident'] if isinstance(s.data['Type of Incident'], list) else []
     self.pages.append(s.page.page_number)
 
@@ -74,8 +76,8 @@ class Incident:
       'sex': s.data['Sex'] if 'Sex' in keys else None,
       'race': s.data['Race'] if 'Race' in keys else None,
       'age': int(s.data['Age']) if 'Age' in keys else None,
-      'injured': bool(s.data['Injured']) if 'Injured' in keys else False,
-      'killed': bool(s.data['Killed']) if 'Killed' in keys else False,
+      'injured': bool(s.data['Injured'] == 'Yes') if 'Injured' in keys else False,
+      'killed': bool(s.data['Killed'] == 'Yes') if 'Killed' in keys else False,
       'rank': str(s.data['Rank']) if 'Rank' in keys else None,
       'duty': s.data['Duty Assignment'] if 'Duty Assignment' in keys else None,
       'service_years': int(s.data['Years of Service']) if 'Years of Service' in keys else None,
@@ -100,7 +102,6 @@ class Incident:
     keyMaps = [
       ('actions', "Subject\u2019s Actions (check all that apply)", list),
       ('force_received', "Officer\u2019s Use of force toward this subject", list),
-      ('force_received', "Officer\u2019s Use of force toward this subject", list),
       ('meta', 'meta', None),
       ('sex', 'Sex', None),
       ('race', 'Race', None),
@@ -113,6 +114,9 @@ class Incident:
           subject[s_key] = s.data[d_key]
         else:
           subject[s_key] = None
+
+    if (len(subject['charges'])):
+      subject['charges'] = list(map(lambda c: c.strip().upper(), subject['charges'].split(',')))
 
     self.subjects.append(subject)
 
@@ -144,6 +148,7 @@ def add_incident_to_dict(d, i):
 def pdf_to_json(filename, interval = None):
   pdf = pdfplumber.open(filename)
   pages = pdf.pages
+
   if interval :
     (start_page, end_page) = interval
     start_page -= 1

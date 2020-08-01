@@ -6,7 +6,7 @@ def is_new_report(page):
   return page.header_text == 'JERSEY CITY POLICE DEPARTMENT USE OF FORCE REPORT'
 
 class Row:
-  tolerance = 5
+  tolerance = 3
   firstwordX = 32
 
   def __init__(self, bbox, page):
@@ -66,7 +66,6 @@ class Section:
 
         cell_text = c.extract_text()
         data = cell_text.split('\n')
-
 
         if len(list(filter(lambda r: r['height'] == r['width'], c.rects))) :
           if (data[0] == 'Under the influence') :

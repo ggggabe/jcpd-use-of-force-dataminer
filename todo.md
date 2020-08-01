@@ -9,8 +9,16 @@
 - count of unique incidents
 - count of officers
 
+---
+
 ## Todo
+- parse firearms
 - flatten
-- zipcode
 - Normalize the charges (check email)
 - map viz research
+
+## Done
+- time
+- parse charges
+- zipcode
+- meta section
