@@ -1,7 +1,6 @@
 import re
 
 def extract_firearms(d):
-  print(d)
   match = re.search('([A-Za-z]+: ?\d*)', d)
   if not match:
     return None
@@ -21,5 +20,3 @@ def time(s):
 
 def zipcode(s):
   return re.search('(\d{5})', s).groups()[0]
-
-
