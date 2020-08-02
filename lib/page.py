@@ -103,15 +103,22 @@ class Page:
     self.page_number = page.page_number
     self.header = None
     self.has_content = page.extract_text() != None
+    self.header_text = None
 
     if self.has_content:
-      if len(page.rects) > 0:
-        header = page.within_bbox((0, 0, page.width, sorted(page.rects, key=lambda r: r['bottom'])[0]['bottom'] + self.tolerance)).extract_words()
-        self.header = header
-        self.header_text = ' '.join(list(map(lambda h: h['text'], header)))
+      self.extract_header_text()
 
-      self.report_start = header_text == 'JERSEY CITY POLICE DEPARTMENT USE OF FORCE REPORT'
-      self.sections = self.get_sections()
+
+  def extract_header_text(self):
+
+    # Extract Header Text to classify doc type
+    if len(self.page.rects) > 0:
+      header = self.page.within_bbox((0, 0, self.page.width, sorted(self.page.rects, key=lambda r: r['bottom'])[0]['bottom'] + self.tolerance)).extract_words()
+      self.header = header
+      self.header_text = ' '.join(list(map(lambda h: h['text'], header)))
+
+    self.report_start = self.header_text == 'JERSEY CITY POLICE DEPARTMENT USE OF FORCE REPORT'
+    self.sections = self.get_sections()
 
   def get_sections(self):
     if (self.header_text == 'If this officer used force against more than two subjects in this incident, attach additional USE OF FORCE REPORTS') :
