@@ -190,7 +190,7 @@ def pdf_to_json(filename, interval = None):
 
   if len(leaf):
     incident = Incident(leaf)
-    add_incident_to_dict(incidentsDict, incident)
+    add_incident_to_dict(incidentsDict, incident.json())
 
   if len(skipped) :
     logpath = 'logs/skipped.json'
@@ -202,8 +202,5 @@ def pdf_to_json(filename, interval = None):
     with open(logpath, write_opt) as log:
       print('Failed some.')
       json.dump(skipped, log, indent=2)
-
-  for key in incidentsDict.keys():
-    incidentsDict[key] = incidentsDict[key].json()
 
   return incidentsDict
