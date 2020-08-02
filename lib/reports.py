@@ -2,7 +2,7 @@ import pdfplumber, sys, traceback, json, os
 import re
 
 from .page import Page
-from .clean import number, time
+from .clean import number, time, zipcode
 
 class Incident:
   def __init__(self, leaf):
@@ -65,7 +65,7 @@ class Incident:
     self.date = s.data['Date'].strip()
     self.day = s.data['Day of Week'].strip()
     self.location = s.data['Location'].strip()
-    self.zip = zip(self.location)
+    self.zip = zipcode(self.location)
     self.type = s.data['Type of Incident'] if isinstance(s.data['Type of Incident'], list) else []
     self.pages.append(s.page.page_number)
 

@@ -10,7 +10,8 @@ resultsfile = 'logs/test.log'
 resultsfullfile = 'logs/full.log'
 
 test_pages= [
-  (290, 295)
+  #(290, 295)
+  (877, 878)
 
   #(71, 72),
   #(95,97),
@@ -28,5 +29,6 @@ if __name__ == '__main__':
     result = pdf_to_json(fullfile, pages)
     results.append(result)
 
+  print(type(results))
   with open(resultsfile, 'w+') as outfile:
     json.dump(results, outfile, indent=2)

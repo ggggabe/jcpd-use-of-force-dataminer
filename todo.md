@@ -12,12 +12,12 @@
 ---
 
 ## Todo
-- parse firearms
 - flatten
 - Normalize the charges (check email)
 - map viz research
 
 ## Done
+- parse firearms
 - time
 - parse charges
 - zipcode

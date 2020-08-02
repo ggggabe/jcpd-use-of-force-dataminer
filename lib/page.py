@@ -1,6 +1,7 @@
 import traceback, re
 import json
 from .checkboxes import extract_checkboxes
+from .clean import extract_firearms
 
 class Row:
   tolerance = 3
@@ -75,10 +76,15 @@ class Section:
               'checkboxes': self.data[data[0]]
             }
 
-            for d in data[3:5]:
-              a = re.search('([A-Za-z]+: \d{1})', d).groups()[0].split(':')
-              key = a[0].strip().lower()
-              val = int(a[1].strip())
+            print('data: ')
+            print(data)
+            for d in data:
+              a = extract_firearms(d)
+
+              if not a:
+                continue
+
+              (key, val) = a
 
               self.data[data[0]][key] = val
         else:
