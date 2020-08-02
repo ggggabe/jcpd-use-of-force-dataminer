@@ -48,9 +48,8 @@ class Section:
 
     self.__init_cells()
 
-
   def __init_cells(self):
-    linebreaks = sorted(list(set(map(lambda r: r['bottom'], list(filter(lambda h: h['width'] > 40 and (h['height'] == .750 or h['height'] == 1.500) , self.page.rects))))))
+    linebreaks = sorted(list(set([r['bottom'] for r in self.page.rects if r['width'] > 40 and (r['height'] == .750 or r['height'] == 1.500)])))
     i = 0
 
     for i in range(len(linebreaks) - 1):
@@ -76,8 +75,6 @@ class Section:
               'checkboxes': self.data[data[0]]
             }
 
-            print('data: ')
-            print(data)
             for d in data:
               a = extract_firearms(d)
 
@@ -128,7 +125,7 @@ class Page:
 
   def get_sections(self):
     if (self.header_text == 'If this officer used force against more than two subjects in this incident, attach additional USE OF FORCE REPORTS') :
-      #then it only has a sig on it
+      # This means it only has a sig on it
       headers = [{
         'top': self.header[0]['top'],
         'val': 'Signature'
@@ -136,7 +133,7 @@ class Page:
     else:
       headers = self.grab_headers()
 
-    sectionBreaks = sorted(list(map(lambda h: h['top'], headers)) + [self.page.height])
+    sectionBreaks = sorted([h['top'] for h in headers] + [self.page.height])
     sections = []
 
     for i in range(len(headers)):
