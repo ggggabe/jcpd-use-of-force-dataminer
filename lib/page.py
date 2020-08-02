@@ -1,9 +1,6 @@
-import traceback
+import traceback, re
 import json
 from .checkboxes import extract_checkboxes
-
-def is_new_report(page):
-  return page.header_text == 'JERSEY CITY POLICE DEPARTMENT USE OF FORCE REPORT'
 
 class Row:
   tolerance = 3
@@ -70,7 +67,20 @@ class Section:
         if len(list(filter(lambda r: r['height'] == r['width'], c.rects))) :
           if (data[0] == 'Under the influence') :
             data[0] = 'meta'
+
           self.data[data[0]] = extract_checkboxes(c, self.bbox)
+
+          if data[0] == 'Firearms Discharge':
+            self.data[data[0]] = {
+              'checkboxes': self.data[data[0]]
+            }
+
+            for d in data[3:5]:
+              a = re.search('([A-Za-z]+: \d{1})', d).groups()[0].split(':')
+              key = a[0].strip().lower()
+              val = int(a[1].strip())
+
+              self.data[data[0]][key] = val
         else:
           self.data[data[0]] = ''.join(data[1:]) if len(data) else None
 
@@ -89,18 +99,19 @@ class Page:
   tolerance=3
 
   def __init__(self, page) :
-    self.header = None
-
-    if len(page.rects) > 0:
-      header = page.within_bbox((0, 0, page.width, sorted(page.rects, key=lambda r: r['bottom'])[0]['bottom'] + self.tolerance)).extract_words()
-      self.header = header
-      self.header_text = ' '.join(list(map(lambda h: h['text'], header)))
-
     self.page = page
     self.page_number = page.page_number
+    self.header = None
     self.has_content = page.extract_text() != None
-    self.report_start = is_new_report(self)
-    self.sections = self.get_sections()
+
+    if self.has_content:
+      if len(page.rects) > 0:
+        header = page.within_bbox((0, 0, page.width, sorted(page.rects, key=lambda r: r['bottom'])[0]['bottom'] + self.tolerance)).extract_words()
+        self.header = header
+        self.header_text = ' '.join(list(map(lambda h: h['text'], header)))
+
+      self.report_start = header_text == 'JERSEY CITY POLICE DEPARTMENT USE OF FORCE REPORT'
+      self.sections = self.get_sections()
 
   def get_sections(self):
     if (self.header_text == 'If this officer used force against more than two subjects in this incident, attach additional USE OF FORCE REPORTS') :
