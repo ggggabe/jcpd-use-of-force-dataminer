@@ -1,24 +1,19 @@
 const json = require('./jcpd_force_2019.json')
-const flattenedJson = require('./testJson.json')
 const fs = require('fs')
 
+const flatten = require('./flatten')
 
-const main = () => {
-  const jsonValues = Object.values(json)
+//const flattenedJson = require('./testJson.json')
 
-  /*
-  const flattenedJson = jsonValues.map( val => {
-    return flatten(val)
-  })
-  */
-
-  save(convertCsv(flattenedJson))
-}
 
 const escape = val => {
   switch (typeof val) {
     case 'string':
       return `"${val}"`
+    case 'boolean':
+      return val
+    case 'number':
+      return val
     default:
       return val
   }
@@ -53,7 +48,7 @@ const convertCsv = (arr) => {
     csvArray.push(incidentCsvLine)
   })
 
-  console.log(csvArray)
+  //console.log(csvArray)
 
   return csvArray
 }
@@ -63,8 +58,7 @@ const save = (csvArray) => {
   fs.writeFile(
     "./tableau-friendly.csv",
     csvArray.join('\n'),
-    err => err ? console.log(err) : console.log("The file was saved!")
-  )
+    err => err ? console.log(err) : console.log("The file was saved!")  )
 }
 
-main()
+save(convertCsv(flatten(Object.values(json))))
