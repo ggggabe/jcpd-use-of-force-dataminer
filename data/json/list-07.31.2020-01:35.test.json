@@ -1,0 +1,123 @@
+[
+  {
+    "id": ",  19-010068",
+    "pages": [
+      16
+    ],
+    "time": "14:42 Hours",
+    "date": "05/07/2019",
+    "day": "Tuesday",
+    "location": "JOHN F KENNEDY BLVD & COMMUNIPAW AVE,JERSEY CITY, NJ 07304",
+    "type": [],
+    "signature": [
+      {
+        "officer_signature": "JOAQUIN RODRIGUEZ #3147 (e-signature)",
+        "officer_sign_date": "May 8, 2019 08:16",
+        "supervisor_name": "PATRICK FAY #8059",
+        "supervisor_signature": "PATRICK FAY #8059 (e-signature)"
+      }
+    ],
+    "officers": {
+      "unknown": [],
+      "3147": {
+        "name": "Joaquin Rodriguez",
+        "badge": "3147",
+        "sex": "M",
+        "race": "RE",
+        "age": 27,
+        "injured": true,
+        "killed": true,
+        "rank": "P.O",
+        "duty": "W402",
+        "service_years": 2
+      },
+      "8230": {
+        "name": "Sgt. M. Kilroy",
+        "badge": "8230",
+        "sex": "",
+        "race": "",
+        "age": 34,
+        "injured": true,
+        "killed": true,
+        "rank": "Sgt",
+        "duty": "West Patrol Sgt",
+        "service_years": 11
+      }
+    },
+    "subjects": [
+      {
+        "id": "16-C1",
+        "meta": [
+          "Under the influence"
+        ],
+        "sex": "",
+        "race": "",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "charges": "",
+        "actions": [],
+        "force_received": [
+          "Compliance hold"
+        ]
+      }
+    ]
+  },
+  {
+    "id": ",  19-010068",
+    "pages": [
+      17
+    ],
+    "time": "14:42 Hours",
+    "date": "05/07/2019",
+    "day": "Tuesday",
+    "location": "JOHN F KENNEDY BLVD & COMMUNIPAW AVE,JERSEY CITY, NJ 07304",
+    "type": [],
+    "signature": [
+      {
+        "officer_signature": "MATTHEW KILROY #8230 (e-signature)",
+        "officer_sign_date": "May 9, 2019 22:48",
+        "supervisor_name": "DANIEL COYLE #8069",
+        "supervisor_signature": "DANIEL COYLE #8069 (e-signature)"
+      }
+    ],
+    "officers": {
+      "unknown": [],
+      "8230": {
+        "name": "Sgt. M. Kilroy",
+        "badge": "8230",
+        "sex": "",
+        "race": "",
+        "age": 34,
+        "injured": true,
+        "killed": true,
+        "rank": "Sgt",
+        "duty": "West Patrol Sgt",
+        "service_years": 11
+      }
+    },
+    "subjects": [
+      {
+        "id": "17-C1",
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "charges": "",
+        "actions": [
+          "Other (specify): EDP"
+        ],
+        "force_received": [
+          "Compliance hold",
+          "Hands/fists"
+        ]
+      }
+    ]
+  }
+]

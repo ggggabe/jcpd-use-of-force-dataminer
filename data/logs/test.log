@@ -1,0 +1,94 @@
+[
+  {
+    "20-009018": {
+      "id": "20-009018",
+      "pages": [
+        877
+      ],
+      "time": "13:32",
+      "date": "05/21/2020",
+      "day": "Thursday",
+      "location": "151 STERLING AVE, ARMSTRONG AVE & WOODLAWN AVE, JERSEY CITY, NJ 07305",
+      "zip": "07305",
+      "type": [],
+      "signatures": [
+        {
+          "officer_signature": "Jovani Garcia #3294 (e-signature)",
+          "officer_sign_date": "Jun 1, 2020 10:25",
+          "supervisor_name": "BRIAN SULLIVAN #8196",
+          "supervisor_signature": "BRIAN SULLIVAN #8196 (e-signature)"
+        }
+      ],
+      "officers": {
+        "3294": {
+          "name": "J. Garcia",
+          "badge": "3294",
+          "sex": "M",
+          "race": "01",
+          "age": 31,
+          "injured": false,
+          "killed": false,
+          "rank": "officer",
+          "duty": "Sd2",
+          "service_years": 1
+        }
+      },
+      "subjects": [
+        {
+          "id": "877-C1",
+          "age": 74,
+          "weapon": false,
+          "injured": false,
+          "killed": false,
+          "arrested": true,
+          "actions": [
+            "Resisted police officer control"
+          ],
+          "force_received": [
+            "Compliance hold"
+          ],
+          "meta": [
+            "Other unusual condition: resisting arrest"
+          ],
+          "sex": "M",
+          "race": "01",
+          "charges": [
+            "2C:18-3B",
+            "2C:29-1",
+            "2C:29-2A"
+          ],
+          "firearms": {
+            "checkboxes": [],
+            "fired": 0,
+            "hits": 0
+          }
+        },
+        {
+          "id": "877-C1",
+          "age": 74,
+          "weapon": false,
+          "injured": false,
+          "killed": false,
+          "arrested": false,
+          "actions": [
+            "Resisted police officer control"
+          ],
+          "force_received": [
+            "Compliance hold"
+          ],
+          "meta": [
+            "Other unusual condition: resisting arrest"
+          ],
+          "sex": "M",
+          "race": "01",
+          "charges": "",
+          "firearms": {
+            "checkboxes": [],
+            "fired": 0,
+            "hits": 0
+          }
+        }
+      ]
+    }
+  }
+]

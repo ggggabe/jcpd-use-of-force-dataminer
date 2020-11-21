@@ -1,0 +1,4301 @@
+{
+  "19-001941": {
+    "id": "19-001941",
+    "pages": [
+      1,
+      2
+    ],
+    "time": "13:31",
+    "date": "01/26/2019",
+    "day": "Saturday",
+    "location": "JERSEY CITY, NJ 07306",
+    "zip": "07306",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "Isaac Holmes #3249 (e-signature)",
+        "officer_sign_date": "Jan 31, 2019 11:51",
+        "supervisor_name": "JOHN FURCH #8259",
+        "supervisor_signature": "JOHN FURCH #8259 (e-signature)"
+      }
+    ],
+    "officers": {
+      "3249": {
+        "name": "Isaac Holmes",
+        "badge": "3249",
+        "sex": "M",
+        "race": "02",
+        "age": 28,
+        "injured": false,
+        "killed": false,
+        "rank": "PO",
+        "duty": "North 602",
+        "service_years": 1
+      },
+      "0323": {
+        "name": "KEVIN AVILES",
+        "badge": "0323",
+        "sex": "M",
+        "race": "05",
+        "age": 34,
+        "injured": false,
+        "killed": false,
+        "rank": "P.O.",
+        "duty": "North 602",
+        "service_years": 5
+      }
+    },
+    "subjects": [
+      {
+        "id": "1-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control",
+          "Physical threat/attack on officer or another",
+          "Other (specify): Bit PO"
+        ],
+        "force_received": [
+          "Other (specify): Takedown"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "RESISTING ARREST",
+          "HINDERING",
+          "OBSTRUCTION",
+          "AGGRAVATED ASSAULT ON A PO"
+        ]
+      },
+      {
+        "id": "2-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control",
+          "Physical threat/attack on officer or another",
+          "Other (specify): Bit officer"
+        ],
+        "force_received": [
+          "Other (specify): Take Down"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "RESISTING ARREST",
+          "HINDERING",
+          "OBSTRUCTION",
+          "AGGRAVATED ASSAULT ON A PO"
+        ]
+      }
+    ]
+  },
+  "19-002196": {
+    "id": "19-002196",
+    "pages": [
+      3
+    ],
+    "time": "09:40",
+    "date": "01/30/2019",
+    "day": "Wednesday",
+    "location": "JERSEY CITY, NJ 07306",
+    "zip": "07306",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "CARLOS CASTILLO #2818 (e-signature)",
+        "officer_sign_date": "Jan 30, 2019 15:55",
+        "supervisor_name": "JASON FIELD #8175",
+        "supervisor_signature": "JASON FIELD #8175 (e-signature)"
+      }
+    ],
+    "officers": {
+      "2818": {
+        "name": "CARLOS CASTILLO",
+        "badge": "2818",
+        "sex": "M",
+        "race": "05",
+        "age": 49,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "ESU",
+        "service_years": 21
+      }
+    },
+    "subjects": [
+      {
+        "id": "3-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "actions": [
+          "Threatened/attacked officer or another with knife/cutting object"
+        ],
+        "force_received": [
+          "Other (specify): CED Taser."
+        ],
+        "meta": [
+          "Other unusual condition: EDP suicidal."
+        ],
+        "sex": "",
+        "race": "",
+        "charges": ""
+      }
+    ]
+  },
+  "19-004098": {
+    "id": "19-004098",
+    "pages": [
+      4,
+      5
+    ],
+    "time": "15:37",
+    "date": "02/22/2019",
+    "day": "Friday",
+    "location": "282 CENTRAL AVE, MANHATTAN AVE & MANHATTAN AVE, JERSEY CITY, NJ 07306",
+    "zip": "07306",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "NOEL SANTIAGO JR #2530 (e-signature)",
+        "officer_sign_date": "Feb 22, 2019 18:50",
+        "supervisor_name": "JOE SARAO #8036",
+        "supervisor_signature": "JOE SARAO #8036 (e-signature)"
+      }
+    ],
+    "officers": {
+      "2530": {
+        "name": "NOEL SANTIAGO JR",
+        "badge": "2530",
+        "sex": "M",
+        "race": "W",
+        "age": 41,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "Patrol",
+        "service_years": 13
+      },
+      "3091": {
+        "name": "Nancy Rojas",
+        "badge": "3091",
+        "sex": "F",
+        "race": "W",
+        "age": 29,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "Patrol",
+        "service_years": 3
+      }
+    },
+    "subjects": [
+      {
+        "id": "4-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Other (specify): Physical Contac"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": ""
+      },
+      {
+        "id": "5-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": ""
+      }
+    ]
+  },
+  "19-004125": {
+    "id": "19-004125",
+    "pages": [
+      6,
+      7,
+      8
+    ],
+    "time": "00:58",
+    "date": "02/23/2019",
+    "day": "Saturday",
+    "location": "JERSEY CITY, NJ 07307",
+    "zip": "07307",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "JOSEPH OLSZEWSKI #8011 (e-signature)",
+        "officer_sign_date": "Feb 23, 2019 05:09",
+        "supervisor_name": "MICHAEL BALCEZAK #8175",
+        "supervisor_signature": "MICHAEL BALCEZAK #8175 (e-signature)"
+      }
+    ],
+    "officers": {
+      "8011": {
+        "name": "JOSEPH OLSZEWSKI",
+        "badge": "8011",
+        "sex": "M",
+        "race": "W",
+        "age": 52,
+        "injured": false,
+        "killed": false,
+        "rank": "Lt",
+        "duty": "North Patrol Lt",
+        "service_years": 22
+      },
+      "3050": {
+        "name": "MICHAEL GEIB",
+        "badge": "3050",
+        "sex": "M",
+        "race": "W",
+        "age": 30,
+        "injured": false,
+        "killed": false,
+        "rank": "P.O.",
+        "duty": "North 101",
+        "service_years": 3
+      },
+      "2856": {
+        "name": "NORBAL VAZQUEZ",
+        "badge": "2856",
+        "sex": "M",
+        "race": "05",
+        "age": 35,
+        "injured": false,
+        "killed": false,
+        "rank": "P.O.",
+        "duty": "North Patrol",
+        "service_years": 11
+      }
+    },
+    "subjects": [
+      {
+        "id": "6-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "TERRORISTIC THREATS",
+          "AGG ASSAULT",
+          "RESISTINGARREST"
+        ]
+      },
+      {
+        "id": "7-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control",
+          "Physical threat/attack on officer or another"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "2C:12-3",
+          "2C:12-1B.5A",
+          "2C:29-2A"
+        ]
+      },
+      {
+        "id": "8-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control",
+          "Physical threat/attack on officer or another"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "2C:12-1B(5)A",
+          "2C:12-3",
+          "2C:29-2A"
+        ]
+      }
+    ]
+  },
+  "19-004925": {
+    "id": "19-004925",
+    "pages": [
+      9,
+      10,
+      11,
+      13,
+      14,
+      15
+    ],
+    "time": "15:15",
+    "date": "03/06/2019",
+    "day": "Wednesday",
+    "location": "MARTIN LUTHER KING DR & BIDWELL AVE, JERSEY CITY, NJ 07305",
+    "zip": "07305",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "CRISTIEL MATIAS #2723 (e-signature)",
+        "officer_sign_date": "Mar 23, 2019 14:15",
+        "supervisor_name": "MARINA UGOLINI #8187",
+        "supervisor_signature": "MARINA UGOLINI #8187 (e-signature)"
+      }
+    ],
+    "officers": {
+      "2723": {
+        "name": "Critstiel Matias",
+        "badge": "2723",
+        "sex": "M",
+        "race": "W",
+        "age": 29,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "Patrol",
+        "service_years": 6
+      },
+      "3115": {
+        "name": "Michael De Bari",
+        "badge": "3115",
+        "sex": "M",
+        "race": "02",
+        "age": 26,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "Patrol",
+        "service_years": 3
+      },
+      "3064": {
+        "name": "P.O. Dillon Budhoo",
+        "badge": "3064",
+        "sex": "M",
+        "race": "A",
+        "age": 27,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "Patrol",
+        "service_years": 4
+      },
+      "2501": {
+        "name": "P.O. Lowenwirth",
+        "badge": "2501",
+        "sex": "M",
+        "race": "W",
+        "age": 38,
+        "injured": false,
+        "killed": false,
+        "rank": "P.O.",
+        "duty": "S503",
+        "service_years": 14
+      },
+      "372": {
+        "name": "Patrick M. Canfield",
+        "badge": "372",
+        "sex": "M",
+        "race": "W",
+        "age": 31,
+        "injured": false,
+        "killed": false,
+        "rank": "P.O.",
+        "duty": "South District S303",
+        "service_years": 4
+      },
+      "141": {
+        "name": "Steven Mocarski",
+        "badge": "141",
+        "sex": "M",
+        "race": "W",
+        "age": 31,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "S303",
+        "service_years": 4
+      }
+    },
+    "subjects": [
+      {
+        "id": "9-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "2C:29-2A",
+          "2C: 33-1B",
+          "2C:33-2"
+        ]
+      },
+      {
+        "id": "10-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Physical threat/attack on officer or another"
+        ],
+        "force_received": [
+          "Other (specify): Physical force"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "2C:33-1"
+        ]
+      },
+      {
+        "id": "11-C2",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Other (specify): Actively engaged in a physical altercation with Ms. Takirah Murphy"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "2C:33-1"
+        ]
+      },
+      {
+        "id": "11-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "2C:29-2A",
+          "2C: 33-1B",
+          "2C:33-2"
+        ]
+      },
+      {
+        "id": "13-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control",
+          "Physical threat/attack on officer or another"
+        ],
+        "force_received": [
+          "Compliance hold",
+          "Hands/fists"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "MULTIPLE"
+        ]
+      },
+      {
+        "id": "14-C1",
+        "age": 18,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Other (specify): Actor was engaged in a street fight"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [],
+        "sex": "F",
+        "race": "02",
+        "charges": [
+          "2C:33-1B",
+          "2C:33-1B",
+          "2C:33-2"
+        ]
+      },
+      {
+        "id": "15-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Other (specify): Refused to break up fighting with other actor."
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "2C:12-1B.5A; 2C:29-3A(7); 2C:33-2; 2C:33-1B; 2C:33-1A"
+        ]
+      }
+    ]
+  },
+  "19-010068": {
+    "id": "19-010068",
+    "pages": [
+      16,
+      17
+    ],
+    "time": "14:42",
+    "date": "05/07/2019",
+    "day": "Tuesday",
+    "location": "JOHN F KENNEDY BLVD & COMMUNIPAW AVE, JERSEY CITY, NJ 07304",
+    "zip": "07304",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "JOAQUIN RODRIGUEZ #3147 (e-signature)",
+        "officer_sign_date": "May 8, 2019 08:16",
+        "supervisor_name": "PATRICK FAY #8059",
+        "supervisor_signature": "PATRICK FAY #8059 (e-signature)"
+      }
+    ],
+    "officers": {
+      "3147": {
+        "name": "Joaquin Rodriguez",
+        "badge": "3147",
+        "sex": "M",
+        "race": "RE",
+        "age": 27,
+        "injured": false,
+        "killed": false,
+        "rank": "P.O",
+        "duty": "W402",
+        "service_years": 2
+      },
+      "8230": {
+        "name": "Sgt. M. Kilroy",
+        "badge": "8230",
+        "sex": "",
+        "race": "",
+        "age": 34,
+        "injured": false,
+        "killed": false,
+        "rank": "Sgt",
+        "duty": "West Patrol Sgt",
+        "service_years": 11
+      }
+    },
+    "subjects": [
+      {
+        "id": "16-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "actions": [],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [
+          "Under the influence"
+        ],
+        "sex": "",
+        "race": "",
+        "charges": ""
+      },
+      {
+        "id": "17-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "actions": [
+          "Other (specify): EDP"
+        ],
+        "force_received": [
+          "Compliance hold",
+          "Hands/fists"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": ""
+      }
+    ]
+  },
+  "19-010167": {
+    "id": "19-010167",
+    "pages": [
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "time": "20:42",
+    "date": "05/08/2019",
+    "day": "Wednesday",
+    "location": "JERSEY CITY, NJ 07306",
+    "zip": "07306",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "Dylan Solt #2248 (e-signature)",
+        "officer_sign_date": "May 16, 2019 21:47",
+        "supervisor_name": "DANIEL COYLE #8069",
+        "supervisor_signature": "DANIEL COYLE #8069 (e-signature)"
+      }
+    ],
+    "officers": {
+      "2248": {
+        "name": "Dylan Solt",
+        "badge": "2248",
+        "sex": "M",
+        "race": "W",
+        "age": 28,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "West Patrol Unit 203",
+        "service_years": 1
+      },
+      "271": {
+        "name": "Markus Garcia",
+        "badge": "271",
+        "sex": "M",
+        "race": "W",
+        "age": 41,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "W303",
+        "service_years": 5
+      },
+      "2990": {
+        "name": "P.O. Azmy",
+        "badge": "2990",
+        "sex": "M",
+        "race": "W",
+        "age": 28,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "W303",
+        "service_years": 1
+      },
+      "3021": {
+        "name": "P.O. E. Cirino",
+        "badge": "3021",
+        "sex": "M",
+        "race": "W",
+        "age": 29,
+        "injured": false,
+        "killed": false,
+        "rank": "P.O.",
+        "duty": "Patrol W703",
+        "service_years": 5
+      },
+      "3187": {
+        "name": "Shane OBrien",
+        "badge": "3187",
+        "sex": "M",
+        "race": "W",
+        "age": 30,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "West 203",
+        "service_years": 1
+      }
+    },
+    "subjects": [
+      {
+        "id": "18-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": ""
+      },
+      {
+        "id": "19-C2",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [
+          "Other unusual condition: Emotionally Disturbed Person"
+        ],
+        "sex": "",
+        "race": "",
+        "charges": ""
+      },
+      {
+        "id": "20-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": ""
+      },
+      {
+        "id": "21-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": ""
+      },
+      {
+        "id": "22-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": ""
+      }
+    ]
+  },
+  "19-010434": {
+    "id": "19-010434",
+    "pages": [
+      23,
+      24
+    ],
+    "time": "19:11",
+    "date": "05/11/2019",
+    "day": "Saturday",
+    "location": "361 CENTRAL AVE, BOWERS ST & CHARLES ST, JERSEY CITY, NJ 07307",
+    "zip": "07307",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "Maksym Hirnyy #3181 (e-signature)",
+        "officer_sign_date": "May 11, 2019 22:33",
+        "supervisor_name": "THIERRY BURICA #8165",
+        "supervisor_signature": "THIERRY BURICA #8165 (e-signature)"
+      }
+    ],
+    "officers": {
+      "3181": {
+        "name": "Maksym Hirnyy",
+        "badge": "3181",
+        "sex": "M",
+        "race": "W",
+        "age": 36,
+        "injured": false,
+        "killed": false,
+        "rank": "PO",
+        "duty": "N203",
+        "service_years": 1
+      },
+      "2584": {
+        "name": "PO Anthony Rotondo",
+        "badge": "2584",
+        "sex": "M",
+        "race": "W",
+        "age": 22,
+        "injured": false,
+        "killed": false,
+        "rank": "PO",
+        "duty": "North 203",
+        "service_years": 1
+      }
+    },
+    "subjects": [
+      {
+        "id": "23-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "actions": [
+          "Resisted police officer control",
+          "Other (specify): Noncompliant with Officers commands"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [
+          "Under the influence",
+          "Other unusual condition: EDP under PCP influence"
+        ],
+        "sex": "",
+        "race": "",
+        "charges": ""
+      },
+      {
+        "id": "24-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [
+          "Other unusual condition: Under the influence of PCP"
+        ],
+        "sex": "",
+        "race": "",
+        "charges": ""
+      }
+    ]
+  },
+  "19-010765": {
+    "id": "19-010765",
+    "pages": [
+      25
+    ],
+    "time": "20:56",
+    "date": "05/15/2019",
+    "day": "Wednesday",
+    "location": "1 JACKSON ST, CLINTON AVE & COMMUNIPAW AVE, JERSEY CITY, NJ 07306",
+    "zip": "07306",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "Kenneth Sheehan (e-signature)",
+        "officer_sign_date": "May 16, 2019 03:23",
+        "supervisor_name": "LAWRENCE QUISH #8013",
+        "supervisor_signature": "LAWRENCE QUISH #8013 (e-signature)"
+      }
+    ],
+    "officers": {
+      "225": {
+        "name": "Kenneth Sheehan",
+        "badge": "225",
+        "sex": "M",
+        "race": "W",
+        "age": 30,
+        "injured": false,
+        "killed": false,
+        "rank": "Detective",
+        "duty": "Cease Fire Unit",
+        "service_years": 6
+      }
+    },
+    "subjects": [
+      {
+        "id": "25-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "AGGRAVATED ASSAULT",
+          "WEAPONS OFFENSES",
+          "RESISTING ARREST"
+        ]
+      }
+    ]
+  },
+  "19-011045": {
+    "id": "19-011045",
+    "pages": [
+      26,
+      27,
+      28
+    ],
+    "time": "04:09",
+    "date": "05/19/2019",
+    "day": "Sunday",
+    "location": "BOSTWICK AVE & MARTIN LUTHER KING DR, JERSEY CITY, NJ 07305",
+    "zip": "07305",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "AGUSTIN LOPEZ JR #2830 (e-signature)",
+        "officer_sign_date": "May 19, 2019 06:28",
+        "supervisor_name": "MARINA UGOLINI #8187",
+        "supervisor_signature": "MARINA UGOLINI #8187 (e-signature)"
+      }
+    ],
+    "officers": {
+      "2830": {
+        "name": "Agustin Lopez JR #2830",
+        "badge": "2830",
+        "sex": "M",
+        "race": "W",
+        "age": 43,
+        "injured": false,
+        "killed": false,
+        "rank": "P.O.",
+        "duty": "South 501",
+        "service_years": 15
+      },
+      "2043": {
+        "name": "Ismael Martinez",
+        "badge": "2043",
+        "sex": "M",
+        "race": "W",
+        "age": 46,
+        "injured": false,
+        "killed": false,
+        "rank": "Police",
+        "duty": "South patrol",
+        "service_years": 5
+      },
+      "3237": {
+        "name": "Timothy Coletta",
+        "badge": "3237",
+        "sex": "M",
+        "race": "W",
+        "age": 25,
+        "injured": false,
+        "killed": false,
+        "rank": "PO",
+        "duty": "South 301",
+        "service_years": 1
+      }
+    },
+    "subjects": [
+      {
+        "id": "26-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "actions": [
+          "Other (specify): Used controlled compliance hold on an EDP."
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": ""
+      },
+      {
+        "id": "27-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "actions": [
+          "Physical threat/attack on officer or another"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [
+          "Uniform"
+        ],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "NO"
+        ]
+      },
+      {
+        "id": "28-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Hands/fists"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": ""
+      }
+    ]
+  },
+  "19-011423": {
+    "id": "19-011423",
+    "pages": [
+      29,
+      30
+    ],
+    "time": "08:35",
+    "date": "05/23/2019",
+    "day": "Thursday",
+    "location": "60 CRESCENT AVE, COMMUNIPAW AVE & HARRISON AVE, JERSEY CITY, NJ 07304",
+    "zip": "07304",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "CHRISTIN PUTMAN #3104 (e-signature)",
+        "officer_sign_date": "May 23, 2019 12:19",
+        "supervisor_name": "PATRICK FAY #8059",
+        "supervisor_signature": "PATRICK FAY #8059 (e-signature)"
+      }
+    ],
+    "officers": {
+      "3104": {
+        "name": "Christin Putman",
+        "badge": "3104",
+        "sex": "F",
+        "race": "02",
+        "age": 34,
+        "injured": false,
+        "killed": false,
+        "rank": "Patrol",
+        "duty": "LHS - SRO",
+        "service_years": 3
+      },
+      "3056": {
+        "name": "Rajon Martinez",
+        "badge": "3056",
+        "sex": "M",
+        "race": "02",
+        "age": 31,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "LHS-1",
+        "service_years": 3
+      }
+    },
+    "subjects": [
+      {
+        "id": "29-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control",
+          "Physical threat/attack on officer or another"
+        ],
+        "force_received": [
+          "Compliance hold",
+          "Hands/fists"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "2C:33-2",
+          "2C:29-2",
+          "2C:12-1B.5A"
+        ]
+      },
+      {
+        "id": "30-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control",
+          "Physical threat/attack on officer or another"
+        ],
+        "force_received": [
+          "Compliance hold",
+          "Hands/fists"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "2C:33-2",
+          "2C:29-2",
+          "2C:12-1B.5A"
+        ]
+      }
+    ]
+  },
+  "19-014970": {
+    "id": "19-014970",
+    "pages": [
+      31
+    ],
+    "time": "15:30",
+    "date": "07/02/2019",
+    "day": "Tuesday",
+    "location": "2 PALISADE AVE, NEWARK AVE & WASHBURN ST, JERSEY CITY, NJ 07306",
+    "zip": "07306",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "JOEMY FERNANDEZ #2143 (e-signature)",
+        "officer_sign_date": "Sep 6, 2019 10:30",
+        "supervisor_name": "MOHAMMAD RIAZ #8003",
+        "supervisor_signature": "MOHAMMAD RIAZ #8003 (e-signature)"
+      }
+    ],
+    "officers": {
+      "2143": {
+        "name": "J. Fernandez",
+        "badge": "2143",
+        "sex": "M",
+        "race": "W",
+        "age": 29,
+        "injured": false,
+        "killed": false,
+        "rank": "P.O.",
+        "duty": "Street Crimes Unit",
+        "service_years": 5
+      }
+    },
+    "subjects": [
+      {
+        "id": "31-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Physical threat/attack on officer or another"
+        ],
+        "force_received": [
+          "Hands/fists"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "2C:29-1"
+        ]
+      }
+    ]
+  },
+  "19-015395": {
+    "id": "19-015395",
+    "pages": [
+      32,
+      33
+    ],
+    "time": "23:44",
+    "date": "07/07/2019",
+    "day": "Sunday",
+    "location": "JERSEY CITY, NJ 07305",
+    "zip": "07305",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "ANDREW BARELLA #910 (e-signature)",
+        "officer_sign_date": "Aug 1, 2019 17:37",
+        "supervisor_name": "BRIAN CULLINANE #8245",
+        "supervisor_signature": "BRIAN CULLINANE #8245 (e-signature)"
+      }
+    ],
+    "officers": {
+      "910": {
+        "name": "Andrew Barella",
+        "badge": "910",
+        "sex": "M",
+        "race": "W",
+        "age": 30,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "Street Crimes Unit",
+        "service_years": 5
+      },
+      "3028": {
+        "name": "Christopher Kiszka",
+        "badge": "3028",
+        "sex": "M",
+        "race": "W",
+        "age": 25,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "Street Crimes Squad 5",
+        "service_years": 4
+      }
+    },
+    "subjects": [
+      {
+        "id": "32-C1",
+        "age": null,
+        "weapon": true,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "2C:39-5B",
+          "2C:39-4A",
+          "2C:58-6.1",
+          "2C:18-2B",
+          "2C:29-1",
+          "2C:24-4",
+          ""
+        ]
+      },
+      {
+        "id": "33-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "2C:39-5B/2C:39-4A/2C:58-6.1/2C:29-1/2C:29-2/2C:19-2/2C:39-3J/2C:24-4"
+        ]
+      }
+    ]
+  },
+  "19-015873": {
+    "id": "19-015873",
+    "pages": [
+      34,
+      35,
+      36,
+      37,
+      38
+    ],
+    "time": "20:30",
+    "date": "07/12/2019",
+    "day": "Friday",
+    "location": "JERSEY CITY, NJ 07306",
+    "zip": "07306",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "EMANUEL RIVERA #3149 (e-signature)",
+        "officer_sign_date": "Sep 10, 2019 18:33",
+        "supervisor_name": "JOE SARAO #8036",
+        "supervisor_signature": "JOE SARAO #8036 (e-signature)"
+      }
+    ],
+    "officers": {
+      "3149": {
+        "name": "Emanuel Rivera",
+        "badge": "3149",
+        "sex": "M",
+        "race": "W",
+        "age": 36,
+        "injured": false,
+        "killed": false,
+        "rank": "P.O.",
+        "duty": "N303",
+        "service_years": 2
+      },
+      "2593": {
+        "name": "Glenn Johnson",
+        "badge": "2593",
+        "sex": "M",
+        "race": "02",
+        "age": 32,
+        "injured": false,
+        "killed": false,
+        "rank": "P.O.",
+        "duty": "N403",
+        "service_years": 6
+      },
+      "3266": {
+        "name": "Jocelyn Ocasio",
+        "badge": "3266",
+        "sex": "F",
+        "race": "W",
+        "age": 30,
+        "injured": false,
+        "killed": false,
+        "rank": "P.O.",
+        "duty": "N303",
+        "service_years": 1
+      },
+      "2850": {
+        "name": "Joseph Torre",
+        "badge": "2850",
+        "sex": "M",
+        "race": "W",
+        "age": 32,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "Patrol",
+        "service_years": 6
+      },
+      "8229": {
+        "name": "Michael Rems Jr",
+        "badge": "8229",
+        "sex": "M",
+        "race": "A",
+        "age": 45,
+        "injured": false,
+        "killed": false,
+        "rank": "Sergeant",
+        "duty": "North Patrol Sergeant",
+        "service_years": 13
+      }
+    },
+    "subjects": [
+      {
+        "id": "34-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [
+          "Under the influence"
+        ],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "SICK CALL"
+        ]
+      },
+      {
+        "id": "35-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [
+          "Under the influence"
+        ],
+        "sex": "",
+        "race": "",
+        "charges": ""
+      },
+      {
+        "id": "36-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [
+          "Under the influence"
+        ],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "SICK CALL"
+        ]
+      },
+      {
+        "id": "37-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [
+          "Under the influence"
+        ],
+        "sex": "",
+        "race": "",
+        "charges": ""
+      },
+      {
+        "id": "38-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "actions": [
+          "Resisted police officer control",
+          "Other (specify): Refused to enter ambulance"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [
+          "Under the influence",
+          "Other unusual condition: Suicidal"
+        ],
+        "sex": "",
+        "race": "",
+        "charges": ""
+      }
+    ]
+  },
+  "19-018372": {
+    "id": "19-018372",
+    "pages": [
+      39,
+      40
+    ],
+    "time": "22:45",
+    "date": "08/09/2019",
+    "day": "Friday",
+    "location": "23 CONCORD ST, 1, HOBOKEN AVE & FLEET ST, JERSEY CITY, NJ 07306",
+    "zip": "07306",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "Anthony Turner #3193 (e-signature)",
+        "officer_sign_date": "Oct 3, 2019 09:45",
+        "supervisor_name": "JOCELYN ROLDAN #8144",
+        "supervisor_signature": "JOCELYN ROLDAN #8144 (e-signature)"
+      }
+    ],
+    "officers": {
+      "3193": {
+        "name": "Anthony Turner",
+        "badge": "3193",
+        "sex": "M",
+        "race": "02",
+        "age": 34,
+        "injured": false,
+        "killed": false,
+        "rank": "P.O.",
+        "duty": "N403",
+        "service_years": 1
+      },
+      "3149": {
+        "name": "Emanuel Rivera #3149",
+        "badge": "3149",
+        "sex": "M",
+        "race": "W",
+        "age": 36,
+        "injured": false,
+        "killed": false,
+        "rank": "P.O.",
+        "duty": "Patrol N403",
+        "service_years": 2
+      }
+    },
+    "subjects": [
+      {
+        "id": "39-C1",
+        "age": 38,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Strike/use baton or other objec"
+        ],
+        "meta": [
+          "Under the influence"
+        ],
+        "sex": "M",
+        "race": "W",
+        "charges": [
+          "2C:12-1B(13)"
+        ]
+      },
+      {
+        "id": "40-C1",
+        "age": 38,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [
+          "Under the influence"
+        ],
+        "sex": "M",
+        "race": "W",
+        "charges": [
+          "2C:12-1B(13)"
+        ]
+      }
+    ]
+  },
+  "19-019132": {
+    "id": "19-019132",
+    "pages": [
+      41,
+      42,
+      43
+    ],
+    "time": "18:56",
+    "date": "08/19/2019",
+    "day": "Monday",
+    "location": "JERSEY CITY, NJ 07305",
+    "zip": "07305",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "Christina Freeman #3268 (e-signature)",
+        "officer_sign_date": "Aug 28, 2019 21:58",
+        "supervisor_name": "ROBERT MAJURY #8086",
+        "supervisor_signature": "ROBERT MAJURY #8086 (e-signature)"
+      }
+    ],
+    "officers": {
+      "3268": {
+        "name": "Christina Freeman",
+        "badge": "3268",
+        "sex": "O",
+        "race": "01",
+        "age": 64,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "ND5",
+        "service_years": 1
+      },
+      "362": {
+        "name": "Detective Gerges",
+        "badge": "362",
+        "sex": "M",
+        "race": "W",
+        "age": 0,
+        "injured": false,
+        "killed": false,
+        "rank": "Detective",
+        "duty": "JUvenile Detective",
+        "service_years": 6
+      },
+      "3280": {
+        "name": "Lillian Ruiz",
+        "badge": "3280",
+        "sex": "F",
+        "race": "W",
+        "age": 23,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "ND5",
+        "service_years": 1
+      }
+    },
+    "subjects": [
+      {
+        "id": "41-C1",
+        "age": null,
+        "weapon": false,
+        "injured": true,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Strike/use baton or other objec"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "2C:12-1B",
+          "2C:29-2A(3)",
+          "2C:33-1.2",
+          "2C:33-2A"
+        ]
+      },
+      {
+        "id": "42-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Physical threat/attack on officer or another",
+          "Other (specify): The actor was moving around swing his hand and trying to harm him self by banging his head on the fence and trying to pull off the bar that he was handcuffed too."
+        ],
+        "force_received": [
+          "Other (specify): Held the actor to prevent him from harming himself and to restrain him"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "2C:29-2A",
+          "2C:12-1B",
+          "2C:33-1.2",
+          "2C:33-2A"
+        ]
+      },
+      {
+        "id": "43-C1",
+        "age": null,
+        "weapon": false,
+        "injured": true,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Other (specify): Grabbed and pushed"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "2C:12-1B",
+          "2C:29-2A(3)",
+          "2C:33-1.2",
+          "2C:33-2A"
+        ]
+      }
+    ]
+  },
+  "19-019322": {
+    "id": "19-019322",
+    "pages": [
+      44
+    ],
+    "time": "20:59",
+    "date": "08/21/2019",
+    "day": "Wednesday",
+    "location": "40 SALEM LAFAYETTE CT, OCEAN AVE & MARTIN LUTHER KING DR, JERSEY CITY, NJ 07304",
+    "zip": "07304",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "Ileana Anton #3281 (e-signature)",
+        "officer_sign_date": "Sep 20, 2019 14:50",
+        "supervisor_name": "JOCELYN ROLDAN #8144",
+        "supervisor_signature": "JOCELYN ROLDAN #8144 (e-signature)"
+      }
+    ],
+    "officers": {
+      "3281": {
+        "name": "Ileana Anton",
+        "badge": "3281",
+        "sex": "F",
+        "race": "W",
+        "age": 27,
+        "injured": false,
+        "killed": false,
+        "rank": "PO",
+        "duty": "ND2",
+        "service_years": 1
+      }
+    },
+    "subjects": [
+      {
+        "id": "44-C1",
+        "age": 23,
+        "weapon": true,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Threatened/attacked officer or another with blunt object"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [],
+        "sex": "F",
+        "race": "02",
+        "charges": [
+          "2C:33-2A",
+          "2C:12-1A",
+          "2C:29-1",
+          "2C:29-2A"
+        ]
+      }
+    ]
+  },
+  "19-019405": {
+    "id": "19-019405",
+    "pages": [
+      45,
+      46,
+      47,
+      48
+    ],
+    "time": "00:14",
+    "date": "08/23/2019",
+    "day": "Friday",
+    "location": "328 COLUMBIA AVE, LEONARD ST & SECAUCUS RD, JERSEY CITY, NJ 07307",
+    "zip": "07307",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "MICHAEL SZYMANSKI JR #2568 (e-signature)",
+        "officer_sign_date": "Aug 23, 2019 02:37",
+        "supervisor_name": "BRIAN DAVIS #8062",
+        "supervisor_signature": "BRIAN DAVIS #8062 (e-signature)"
+      }
+    ],
+    "officers": {
+      "2568": {
+        "name": "Michael Szymanski Jr",
+        "badge": "2568",
+        "sex": "M",
+        "race": "W",
+        "age": 42,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "North PC",
+        "service_years": 14
+      },
+      "1734": {
+        "name": "P.O. R. Lopez",
+        "badge": "1734",
+        "sex": "M",
+        "race": "W",
+        "age": 36,
+        "injured": false,
+        "killed": false,
+        "rank": "P.O.",
+        "duty": "NORTH 301",
+        "service_years": 6
+      },
+      "2921": {
+        "name": "Rodrigo Bustamante",
+        "badge": "2921",
+        "sex": "M",
+        "race": "W",
+        "age": 49,
+        "injured": false,
+        "killed": false,
+        "rank": "police officer",
+        "duty": "North PC",
+        "service_years": 13
+      }
+    },
+    "subjects": [
+      {
+        "id": "45-C1",
+        "age": 37,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [
+          "Under the influence"
+        ],
+        "sex": "M",
+        "race": "W",
+        "charges": [
+          "DISORDERLY CONDUCT"
+        ]
+      },
+      {
+        "id": "46-C1",
+        "age": 37,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "actions": [
+          "Other (specify): reluctant to allow officers to speak with other party"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [
+          "Under the influence"
+        ],
+        "sex": "M",
+        "race": "W",
+        "charges": ""
+      },
+      {
+        "id": "47-C1",
+        "age": 37,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [
+          "Under the influence"
+        ],
+        "sex": "M",
+        "race": "W",
+        "charges": [
+          "DISORDERLY PERSONS OFFENSE"
+        ]
+      },
+      {
+        "id": "48-C1",
+        "age": 37,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "actions": [
+          "Other (specify): subject was flailing his arms"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [
+          "Under the influence"
+        ],
+        "sex": "M",
+        "race": "W",
+        "charges": [
+          "NONE"
+        ]
+      }
+    ]
+  },
+  "19-019583": {
+    "id": "19-019583",
+    "pages": [
+      49,
+      50
+    ],
+    "time": "00:38",
+    "date": "08/25/2019",
+    "day": "Sunday",
+    "location": "COUNTY RD & TONNELLE AVE, JERSEY CITY, NJ 07306",
+    "zip": "07306",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "PAUL FENNELL #2993 (e-signature)",
+        "officer_sign_date": "Aug 25, 2019 03:52",
+        "supervisor_name": "JOSEPH OLSZEWSKI #8011",
+        "supervisor_signature": "JOSEPH OLSZEWSKI #8011 (e-signature)"
+      }
+    ],
+    "officers": {
+      "2993": {
+        "name": "FENNELL",
+        "badge": "2993",
+        "sex": "M",
+        "race": "W",
+        "age": 42,
+        "injured": false,
+        "killed": false,
+        "rank": "P.O.",
+        "duty": "TRAFFIC SAFETY",
+        "service_years": 12
+      },
+      "1985": {
+        "name": "Stephen Thomas Wilson",
+        "badge": "1985",
+        "sex": "M",
+        "race": "W",
+        "age": 34,
+        "injured": false,
+        "killed": false,
+        "rank": "Officer",
+        "duty": "Traffic Safety",
+        "service_years": 12
+      }
+    },
+    "subjects": [
+      {
+        "id": "49-C1",
+        "age": 27,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control",
+          "Other (specify): ATTEMPTED TO FLEE ON MOTORCYCLE AFTER BEING TOLD TO STOP."
+        ],
+        "force_received": [
+          "Hands/fists"
+        ],
+        "meta": [],
+        "sex": "M",
+        "race": "U",
+        "charges": [
+          "2C:29-2B"
+        ]
+      },
+      {
+        "id": "50-C1",
+        "age": 27,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Hands/fists"
+        ],
+        "meta": [
+          "Other unusual condition: Eluding Officer, Resisting Control"
+        ],
+        "sex": "M",
+        "race": "U",
+        "charges": [
+          "2C:29-2B"
+        ]
+      }
+    ]
+  },
+  "19-019824": {
+    "id": "19-019824",
+    "pages": [
+      51,
+      52,
+      56,
+      57
+    ],
+    "time": "21:55",
+    "date": "08/27/2019",
+    "day": "Tuesday",
+    "location": "SIP AVE & SUMMIT AVE, JERSEY CITY, NJ 07306",
+    "zip": "07306",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "CHRISTOPHER HILL #3138 (e-signature)",
+        "officer_sign_date": "Nov 13, 2019 14:34",
+        "supervisor_name": "JOE SARAO #8036",
+        "supervisor_signature": "JOE SARAO #8036 (e-signature)"
+      }
+    ],
+    "officers": {
+      "3138": {
+        "name": "Christopher Hill",
+        "badge": "3138",
+        "sex": "M",
+        "race": "W",
+        "age": 25,
+        "injured": false,
+        "killed": false,
+        "rank": "P.O.",
+        "duty": "N403",
+        "service_years": 2
+      },
+      "3209": {
+        "name": "G. Parhar",
+        "badge": "3209",
+        "sex": "M",
+        "race": "A",
+        "age": 41,
+        "injured": false,
+        "killed": false,
+        "rank": "P.O",
+        "duty": "N403",
+        "service_years": 1
+      }
+    },
+    "subjects": [
+      {
+        "id": "51-C1",
+        "age": 22,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Chemical/natural agent",
+          "Compliance hold"
+        ],
+        "meta": [],
+        "sex": "F",
+        "race": "02",
+        "charges": [
+          "2C:29-1",
+          "2C:29-2A",
+          "2C:35-10.A(4)",
+          "2C:35-10.A(1)"
+        ]
+      },
+      {
+        "id": "52-C1",
+        "age": 22,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [],
+        "sex": "F",
+        "race": "02",
+        "charges": [
+          "2C:29-1"
+        ]
+      },
+      {
+        "id": "56-C1",
+        "age": 22,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Chemical/natural agent",
+          "Compliance hold"
+        ],
+        "meta": [],
+        "sex": "F",
+        "race": "02",
+        "charges": [
+          "2C:29-1",
+          "2C:29-2A",
+          "2C:35-10.A(4)",
+          "2C:35-10.A(1)"
+        ]
+      },
+      {
+        "id": "57-C1",
+        "age": 22,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [],
+        "sex": "F",
+        "race": "02",
+        "charges": [
+          "2C:29-1"
+        ]
+      }
+    ]
+  },
+  "19-019706": {
+    "id": "19-019706",
+    "pages": [
+      53
+    ],
+    "time": "15:37",
+    "date": "08/26/2019",
+    "day": "Monday",
+    "location": "124 NEPTUNE AVE, OCEAN AVE & OLD BERGEN RD, JERSEY CITY, NJ 07305",
+    "zip": "07305",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "Shady Azmy #2990 (e-signature)",
+        "officer_sign_date": "Sep 8, 2019 09:59",
+        "supervisor_name": "SHAWN BRODERICK #8050",
+        "supervisor_signature": "SHAWN BRODERICK #8050 (e-signature)"
+      }
+    ],
+    "officers": {
+      "2990": {
+        "name": "Shady Azmy",
+        "badge": "2990",
+        "sex": "M",
+        "race": "W",
+        "age": 0,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "Street Crimes Unit",
+        "service_years": 1
+      }
+    },
+    "subjects": [
+      {
+        "id": "53-C1",
+        "age": 23,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [],
+        "sex": "M",
+        "race": "02",
+        "charges": [
+          "7"
+        ]
+      }
+    ]
+  },
+  "19-019746": {
+    "id": "19-019746",
+    "pages": [
+      54,
+      55
+    ],
+    "time": "23:41",
+    "date": "08/26/2019",
+    "day": "Monday",
+    "location": "39 HARMON ST, RANDOLPH AVE & GRAND ST, JERSEY CITY, NJ 07304",
+    "zip": "07304",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "Jake Badalamenti #3196 (e-signature)",
+        "officer_sign_date": "Sep 6, 2019 16:04",
+        "supervisor_name": "JOSEPH DUMANSKI #8034",
+        "supervisor_signature": "JOSEPH DUMANSKI #8034 (e-signature)"
+      }
+    ],
+    "officers": {
+      "3196": {
+        "name": "Jake Badalamenti",
+        "badge": "3196",
+        "sex": "M",
+        "race": "W",
+        "age": 25,
+        "injured": false,
+        "killed": false,
+        "rank": "PO",
+        "duty": "W403",
+        "service_years": 1
+      },
+      "3198": {
+        "name": "MacKenzie Reilly",
+        "badge": "3198",
+        "sex": "M",
+        "race": "W",
+        "age": 23,
+        "injured": false,
+        "killed": false,
+        "rank": "PO",
+        "duty": "W403",
+        "service_years": 1
+      }
+    },
+    "subjects": [
+      {
+        "id": "54-C1",
+        "age": 28,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [],
+        "sex": "M",
+        "race": "02",
+        "charges": [
+          "2C:29-1",
+          "2C:29-2A"
+        ]
+      },
+      {
+        "id": "55-C1",
+        "age": 28,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [],
+        "sex": "M",
+        "race": "02",
+        "charges": [
+          "2C:29-1",
+          "2C:29-2A"
+        ]
+      }
+    ]
+  },
+  "19-019833": {
+    "id": "19-019833",
+    "pages": [
+      58,
+      59
+    ],
+    "time": "00:07",
+    "date": "08/28/2019",
+    "day": "Wednesday",
+    "location": "214 TERRACE AVE, TOP FLR, BLEECKER ST & NORTH ST, JERSEY CITY, NJ 07307",
+    "zip": "07307",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "Marc Lavelle #3134 (e-signature)",
+        "officer_sign_date": "Sep 12, 2019 03:31",
+        "supervisor_name": "JOCELYN ROLDAN #8144",
+        "supervisor_signature": "JOCELYN ROLDAN #8144 (e-signature)"
+      }
+    ],
+    "officers": {
+      "3134": {
+        "name": "Marc Lavelle",
+        "badge": "3134",
+        "sex": "M",
+        "race": "W",
+        "age": 26,
+        "injured": false,
+        "killed": false,
+        "rank": "P.O.",
+        "duty": "N201",
+        "service_years": 3
+      },
+      "3122": {
+        "name": "P.O. Michael Petronella",
+        "badge": "3122",
+        "sex": "M",
+        "race": "W",
+        "age": 28,
+        "injured": false,
+        "killed": false,
+        "rank": "PO",
+        "duty": "N201",
+        "service_years": 3
+      }
+    },
+    "subjects": [
+      {
+        "id": "58-C1",
+        "age": 41,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [
+          "Under the influence"
+        ],
+        "sex": "F",
+        "race": "W",
+        "charges": [
+          "2C:29-7"
+        ]
+      },
+      {
+        "id": "59-C1",
+        "age": 41,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [
+          "Under the influence"
+        ],
+        "sex": "F",
+        "race": "W",
+        "charges": [
+          "2C:29-7"
+        ]
+      }
+    ]
+  },
+  "19-019926": {
+    "id": "19-019926",
+    "pages": [
+      60
+    ],
+    "time": "01:58",
+    "date": "08/29/2019",
+    "day": "Thursday",
+    "location": "148 BOSTWICK AVE, MARTIN LUTHER KING DR & BERGEN AVE, JERSEY CITY, NJ 07305",
+    "zip": "07305",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "FRANK LOPEZ #3141 (e-signature)",
+        "officer_sign_date": "Sep 6, 2019 06:15",
+        "supervisor_name": "PATRICK FAY #8059",
+        "supervisor_signature": "PATRICK FAY #8059 (e-signature)"
+      }
+    ],
+    "officers": {
+      "3141": {
+        "name": "Frank Lopez",
+        "badge": "3141",
+        "sex": "M",
+        "race": "W",
+        "age": 27,
+        "injured": false,
+        "killed": false,
+        "rank": "PO",
+        "duty": "South Patrol",
+        "service_years": 2
+      }
+    },
+    "subjects": [
+      {
+        "id": "60-C1",
+        "age": 33,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "actions": [
+          "Physical threat/attack on officer or another"
+        ],
+        "force_received": [
+          "Chemical/natural agent"
+        ],
+        "meta": [
+          "Other unusual condition: Diagnosed with paranoid schizophrenia"
+        ],
+        "sex": "M",
+        "race": "W",
+        "charges": [
+          "N/A"
+        ]
+      }
+    ]
+  },
+  "19-020000": {
+    "id": "19-020000",
+    "pages": [
+      61,
+      62,
+      63
+    ],
+    "time": "23:41",
+    "date": "08/28/2019",
+    "day": "Wednesday",
+    "location": "48 BERGEN AVE, WOODLAWN AVE & FULTON AVE, JERSEY CITY, NJ 07305",
+    "zip": "07305",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "ANDREW BARELLA #910 (e-signature)",
+        "officer_sign_date": "Sep 23, 2019 18:04",
+        "supervisor_name": "BRIAN CULLINANE #8245",
+        "supervisor_signature": "BRIAN CULLINANE #8245 (e-signature)"
+      }
+    ],
+    "officers": {
+      "910": {
+        "name": "Andrew Barella",
+        "badge": "910",
+        "sex": "M",
+        "race": "W",
+        "age": 30,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "Street Crimes Unit",
+        "service_years": 5
+      },
+      "2853": {
+        "name": "Michael Sanchez",
+        "badge": "2853",
+        "sex": "M",
+        "race": "01",
+        "age": 0,
+        "injured": false,
+        "killed": false,
+        "rank": "PO",
+        "duty": "SCU 5",
+        "service_years": 7
+      },
+      "3120": {
+        "name": "P.O. Anjan Paulino",
+        "badge": "3120",
+        "sex": "M",
+        "race": "W",
+        "age": 27,
+        "injured": false,
+        "killed": false,
+        "rank": "P.O.",
+        "duty": "Street Crimes Unit",
+        "service_years": 3
+      }
+    },
+    "subjects": [
+      {
+        "id": "61-C1",
+        "age": 21,
+        "weapon": true,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold",
+          "Hands/fists"
+        ],
+        "meta": [],
+        "sex": "M",
+        "race": "02",
+        "charges": [
+          "2C:39-4A",
+          "2C:39-5B",
+          "2C:39-7",
+          "2C:39-9",
+          "2C:39-3F",
+          "2C:39-4.1A",
+          "2C:29-1",
+          "2C:29-2"
+        ]
+      },
+      {
+        "id": "62-C1",
+        "age": 21,
+        "weapon": true,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold",
+          "Hands/fists"
+        ],
+        "meta": [],
+        "sex": "M",
+        "race": "02",
+        "charges": [
+          "2C:39-5B 2C:39-4.1A 2C:39-4A 2C:39-9 2C:39-3 2C:29-2 2C:29-1"
+        ]
+      },
+      {
+        "id": "63-C1",
+        "age": 21,
+        "weapon": true,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [],
+        "sex": "M",
+        "race": "02",
+        "charges": [
+          "2C:39-4A",
+          "2C:39-5B",
+          "2C:39-9",
+          "2C:39-3F",
+          "2C:39-4.1A",
+          "2C:29-2",
+          "2C:29-1",
+          "2C:39-7",
+          "2C: 35-10",
+          "5",
+          "7",
+          "7.1"
+        ]
+      }
+    ]
+  },
+  "19-020175": {
+    "id": "19-020175",
+    "pages": [
+      64,
+      65,
+      66,
+      67
+    ],
+    "time": "02:45",
+    "date": "09/01/2019",
+    "day": "Sunday",
+    "location": "215 FREEMAN AVE, at DUNCAN AVE, JERSEY CITY, NJ 07306",
+    "zip": "07306",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "Joel Atoche Sr. #3166 (e-signature)",
+        "officer_sign_date": "Sep 1, 2019 08:00",
+        "supervisor_name": "JOSEPH DUMANSKI #8034",
+        "supervisor_signature": "JOSEPH DUMANSKI #8034 (e-signature)"
+      }
+    ],
+    "officers": {
+      "3166": {
+        "name": "Joel Atoche Sr.",
+        "badge": "3166",
+        "sex": "M",
+        "race": "01",
+        "age": 34,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "West 201 Patrol (Midnights)",
+        "service_years": 2
+      },
+      "3227": {
+        "name": "Jonathan Nace",
+        "badge": "3227",
+        "sex": "M",
+        "race": "W",
+        "age": 26,
+        "injured": false,
+        "killed": false,
+        "rank": "P.O.",
+        "duty": "West patrol. West 201",
+        "service_years": 1
+      },
+      "2033": {
+        "name": "Jonathan Valencia",
+        "badge": "2033",
+        "sex": "M",
+        "race": "W",
+        "age": 32,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "Patrol",
+        "service_years": 5
+      },
+      "2053": {
+        "name": "Saad Hashmi",
+        "badge": "2053",
+        "sex": "M",
+        "race": "02",
+        "age": 31,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "Patrol",
+        "service_years": 5
+      }
+    },
+    "subjects": [
+      {
+        "id": "64-C1",
+        "age": 39,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Hands/fists"
+        ],
+        "meta": [],
+        "sex": "M",
+        "race": "02",
+        "charges": [
+          "DEFIANT TRESPASS AND RESISTING ARREST."
+        ]
+      },
+      {
+        "id": "65-C1",
+        "age": 39,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [],
+        "sex": "M",
+        "race": "02",
+        "charges": [
+          "2C:18-3B",
+          "2C:29-2A"
+        ]
+      },
+      {
+        "id": "66-C1",
+        "age": 39,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [
+          "Under the influence"
+        ],
+        "sex": "M",
+        "race": "02",
+        "charges": [
+          "TRESPASSING AND RESISTING ARREST"
+        ]
+      },
+      {
+        "id": "67-C1",
+        "age": 39,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [
+          "Under the influence"
+        ],
+        "sex": "M",
+        "race": "02",
+        "charges": [
+          "TRESPASSING & RESISTING ARREST"
+        ]
+      }
+    ]
+  },
+  "19-020237": {
+    "id": "19-020237",
+    "pages": [
+      68,
+      69,
+      70
+    ],
+    "time": "11:40",
+    "date": "09/02/2019",
+    "day": "Monday",
+    "location": ", JERSEY CITY, NJ 07304",
+    "zip": "07304",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "JAMES FRATTINI #2747 (e-signature)",
+        "officer_sign_date": "Sep 18, 2019 11:06",
+        "supervisor_name": "ANIBAL ROSARIO JR #8145",
+        "supervisor_signature": "ANIBAL ROSARIO JR #8145 (e-signature)"
+      }
+    ],
+    "officers": {
+      "2747": {
+        "name": "James Charles Frattini",
+        "badge": "2747",
+        "sex": "M",
+        "race": "RE",
+        "age": 48,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "ESU/E-4",
+        "service_years": 21
+      },
+      "600": {
+        "name": "Michael Camacho",
+        "badge": "600",
+        "sex": "M",
+        "race": "RE",
+        "age": 36,
+        "injured": false,
+        "killed": false,
+        "rank": "Detective",
+        "duty": "ESU/E-4",
+        "service_years": 15
+      },
+      "1001": {
+        "name": "P.O. Elfido Martinez",
+        "badge": "1001",
+        "sex": "M",
+        "race": "W",
+        "age": 35,
+        "injured": false,
+        "killed": false,
+        "rank": "P.O.",
+        "duty": "W502",
+        "service_years": 5
+      }
+    },
+    "subjects": [
+      {
+        "id": "68-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [
+          "Other unusual condition: Grabbing hold of his mother"
+        ],
+        "sex": "",
+        "race": "",
+        "charges": ""
+      },
+      {
+        "id": "69-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [
+          "Other unusual condition: Male EDP: chasing & grabbing hold of mother"
+        ],
+        "sex": "",
+        "race": "",
+        "charges": ""
+      },
+      {
+        "id": "70-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [
+          "Other unusual condition"
+        ],
+        "sex": "",
+        "race": "",
+        "charges": ""
+      }
+    ]
+  },
+  "19-020351": {
+    "id": "19-020351",
+    "pages": [
+      72,
+      73
+    ],
+    "time": "16:58",
+    "date": "09/03/2019",
+    "day": "Tuesday",
+    "location": "OAK ST & MARTIN LUTHER KING DR, JERSEY CITY, NJ 07304",
+    "zip": "07304",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "CHARLES OTUNDO #3005 (e-signature)",
+        "officer_sign_date": "Sep 6, 2019 19:03",
+        "supervisor_name": "JOCELYN ROLDAN #8144",
+        "supervisor_signature": "JOCELYN ROLDAN #8144 (e-signature)"
+      }
+    ],
+    "officers": {
+      "3005": {
+        "name": "P.O C. Otundo",
+        "badge": "3005",
+        "sex": "M",
+        "race": "02",
+        "age": 36,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "W603",
+        "service_years": 5
+      },
+      "3021": {
+        "name": "P.O. E. Cirino",
+        "badge": "3021",
+        "sex": "M",
+        "race": "W",
+        "age": 29,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "W603",
+        "service_years": 5
+      }
+    },
+    "subjects": [
+      {
+        "id": "72-C1",
+        "age": 18,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Physical threat/attack on officer or another"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [],
+        "sex": "M",
+        "race": "02",
+        "charges": [
+          "2C:12-1A(1)/ 2C:33-1/ 2C:33-2"
+        ]
+      },
+      {
+        "id": "73-C1",
+        "age": 18,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Physical threat/attack on officer or another"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [
+          "Uniform"
+        ],
+        "sex": "M",
+        "race": "02",
+        "charges": [
+          "2C: 12-1A SIMPLE ASSAULT",
+          "2C: 33-2 DISORDERLY CONDUCT",
+          "2C:33-1 FAILURE TO DISPERSE"
+        ]
+      }
+    ]
+  },
+  "19-020441": {
+    "id": "19-020441",
+    "pages": [
+      74,
+      75,
+      76,
+      77
+    ],
+    "time": "16:02",
+    "date": "09/04/2019",
+    "day": "Wednesday",
+    "location": "RUTGERS AVE & NEW ST, JERSEY CITY, NJ 07305",
+    "zip": "07305",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "Anthony Ousman #3191 (e-signature)",
+        "officer_sign_date": "Sep 4, 2019 21:05",
+        "supervisor_name": "VINCENT COOK #8080",
+        "supervisor_signature": "VINCENT COOK #8080 (e-signature)"
+      }
+    ],
+    "officers": {
+      "3191": {
+        "name": "Anthony Ousman",
+        "badge": "3191",
+        "sex": "M",
+        "race": "A",
+        "age": 26,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "South District",
+        "service_years": 1
+      },
+      "3132": {
+        "name": "Cristhian Vasquez-Reyes",
+        "badge": "3132",
+        "sex": "M",
+        "race": "W",
+        "age": 27,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "Patrol",
+        "service_years": 2
+      },
+      "3126": {
+        "name": "Lucas Abreu-Espinal",
+        "badge": "3126",
+        "sex": "M",
+        "race": "01",
+        "age": 27,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "South Patrol 503",
+        "service_years": 2
+      },
+      "3237": {
+        "name": "Timothy Coletta",
+        "badge": "3237",
+        "sex": "M",
+        "race": "W",
+        "age": 25,
+        "injured": false,
+        "killed": false,
+        "rank": "PO",
+        "duty": "South Patrol S203",
+        "service_years": 1
+      }
+    },
+    "subjects": [
+      {
+        "id": "74-C1",
+        "age": 33,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold",
+          "Hands/fists"
+        ],
+        "meta": [
+          "Under the influence"
+        ],
+        "sex": "F",
+        "race": "02",
+        "charges": [
+          "2C:12-1B.5A 2C:29-2A"
+        ]
+      },
+      {
+        "id": "75-C1",
+        "age": 33,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [
+          "Under the influence"
+        ],
+        "sex": "F",
+        "race": "02",
+        "charges": [
+          "2C:12-1B.5A 2C:29-2A"
+        ]
+      },
+      {
+        "id": "76-C1",
+        "age": 33,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [
+          "Under the influence"
+        ],
+        "sex": "F",
+        "race": "02",
+        "charges": [
+          "2C:12-1B.5A 2C:29-2A"
+        ]
+      },
+      {
+        "id": "77-C1",
+        "age": 33,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold",
+          "Hands/fists"
+        ],
+        "meta": [
+          "Under the influence"
+        ],
+        "sex": "F",
+        "race": "02",
+        "charges": [
+          "2C:12-1B.5A 2C:29-2A"
+        ]
+      }
+    ]
+  },
+  "19-020745": {
+    "id": "19-020745",
+    "pages": [
+      78,
+      79
+    ],
+    "time": "18:04",
+    "date": "09/07/2019",
+    "day": "Saturday",
+    "location": "NEWARK AVE & ST HWY 7, JERSEY CITY, NJ 07306",
+    "zip": "07306",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "EMANUEL RIVERA #3149 (e-signature)",
+        "officer_sign_date": "Sep 18, 2019 15:47",
+        "supervisor_name": "DARREN SORRENTINO #8116",
+        "supervisor_signature": "DARREN SORRENTINO #8116 (e-signature)"
+      }
+    ],
+    "officers": {
+      "3149": {
+        "name": "P.O. E. Rivera",
+        "badge": "3149",
+        "sex": "M",
+        "race": "W",
+        "age": 36,
+        "injured": false,
+        "killed": false,
+        "rank": "P.O.",
+        "duty": "North Patrol",
+        "service_years": 2
+      },
+      "3039": {
+        "name": "Ruandy Menxoza",
+        "badge": "3039",
+        "sex": "M",
+        "race": "02",
+        "age": 0,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "North Patrol",
+        "service_years": 4
+      }
+    },
+    "subjects": [
+      {
+        "id": "78-C1",
+        "age": 26,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [],
+        "sex": "M",
+        "race": "02",
+        "charges": [
+          "2C:35-10.A(1)"
+        ]
+      },
+      {
+        "id": "79-C1",
+        "age": 26,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [],
+        "sex": "M",
+        "race": "02",
+        "charges": [
+          "POSS. OF CDS"
+        ]
+      }
+    ]
+  },
+  "19-020764": {
+    "id": "19-020764",
+    "pages": [
+      80
+    ],
+    "time": "23:27",
+    "date": "09/07/2019",
+    "day": "Saturday",
+    "location": "MCADOO AVE & ROSE AVE, JERSEY CITY, NJ 07305",
+    "zip": "07305",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "JOSHUA PHILIPS #2229 (e-signature)",
+        "officer_sign_date": "Sep 8, 2019 01:54",
+        "supervisor_name": "KEITH ARMSTRONG #8096",
+        "supervisor_signature": "KEITH ARMSTRONG #8096 (e-signature)"
+      }
+    ],
+    "officers": {
+      "2229": {
+        "name": "Joshua Philips",
+        "badge": "2229",
+        "sex": "M",
+        "race": "W",
+        "age": 32,
+        "injured": false,
+        "killed": false,
+        "rank": "PO",
+        "duty": "Street Crimes",
+        "service_years": 4
+      }
+    },
+    "subjects": [
+      {
+        "id": "80-C1",
+        "age": 35,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold",
+          "Hands/fists"
+        ],
+        "meta": [
+          "Under the influence"
+        ],
+        "sex": "M",
+        "race": "02",
+        "charges": [
+          "2C:35-10.A(4) 2C:29-1 2C:29-2A(1)"
+        ]
+      }
+    ]
+  },
+  "19-022221": {
+    "id": "19-022221",
+    "pages": [
+      81,
+      82
+    ],
+    "time": "00:09",
+    "date": "09/25/2019",
+    "day": "Wednesday",
+    "location": "JOHN F KENNEDY BLVD & LEXINGTON AVE, JERSEY CITY, NJ 07304",
+    "zip": "07304",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "Anthony Turner #3193 (e-signature)",
+        "officer_sign_date": "Sep 25, 2019 06:48",
+        "supervisor_name": "GILBERTO VEGA #8131",
+        "supervisor_signature": "GILBERTO VEGA #8131 (e-signature)"
+      }
+    ],
+    "officers": {
+      "3193": {
+        "name": "Anthony Turner",
+        "badge": "3193",
+        "sex": "M",
+        "race": "02",
+        "age": 34,
+        "injured": false,
+        "killed": false,
+        "rank": "P.O.",
+        "duty": "Street Crimes Unit Squad 6",
+        "service_years": 1
+      },
+      "3124": {
+        "name": "ISMAIL SOLIMAN",
+        "badge": "3124",
+        "sex": "M",
+        "race": "01",
+        "age": 29,
+        "injured": false,
+        "killed": false,
+        "rank": "PO",
+        "duty": "STREET CRIMES/NARCOTICS",
+        "service_years": 3
+      }
+    },
+    "subjects": [
+      {
+        "id": "81-C1",
+        "age": 18,
+        "weapon": false,
+        "injured": true,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [],
+        "sex": "M",
+        "race": "W",
+        "charges": ""
+      },
+      {
+        "id": "82-C1",
+        "age": 18,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Hands/fists"
+        ],
+        "meta": [
+          "Under the influence"
+        ],
+        "sex": "M",
+        "race": "W",
+        "charges": [
+          "2C:12-1(B)5(A)"
+        ]
+      }
+    ]
+  },
+  "19-022564": {
+    "id": "19-022564",
+    "pages": [
+      83,
+      84
+    ],
+    "time": "15:46",
+    "date": "09/28/2019",
+    "day": "Saturday",
+    "location": "OCEAN AVE & WILKINSON AVE, JERSEY CITY, NJ 07305",
+    "zip": "07305",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "Bryant Rowan #3257 (e-signature)",
+        "officer_sign_date": "Oct 22, 2019 21:36",
+        "supervisor_name": "PAWEL WOJTOWICZ #8060",
+        "supervisor_signature": "PAWEL WOJTOWICZ #8060 (e-signature)"
+      }
+    ],
+    "officers": {
+      "3257": {
+        "name": "Bryant Rowan",
+        "badge": "3257",
+        "sex": "M",
+        "race": "02",
+        "age": 29,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "ND post 4",
+        "service_years": 0
+      },
+      "3259": {
+        "name": "Roxanne Aguilera",
+        "badge": "3259",
+        "sex": "F",
+        "race": "W",
+        "age": 26,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "ND Post 4",
+        "service_years": 0
+      }
+    },
+    "subjects": [
+      {
+        "id": "83-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Physical threat/attack on officer or another"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "DISORDERLY CONDUCT",
+          "RESISTING ARREST",
+          "OBSTRUCT GOVERNMENT FUNCTION",
+          "TERRORISTIC THREATS"
+        ]
+      },
+      {
+        "id": "84-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Physical threat/attack on officer or another"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "DISORDERLY CONDUCT",
+          "RESISTING ARREST",
+          "OBSTRUCT GOVERNMENT FUNCTION",
+          "TERRORISTIC THREATS"
+        ]
+      }
+    ]
+  },
+  "19-023923": {
+    "id": "19-023923",
+    "pages": [
+      85,
+      86,
+      87,
+      88
+    ],
+    "time": "10:50",
+    "date": "10/15/2019",
+    "day": "Tuesday",
+    "location": "JERSEY CITY, NJ 07302",
+    "zip": "07302",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "LASCHAN DIAZ PEREZ #3125 (e-signature)",
+        "officer_sign_date": "Nov 20, 2019 16:36",
+        "supervisor_name": "KELVIN FAYTON #8099",
+        "supervisor_signature": "KELVIN FAYTON #8099 (e-signature)"
+      }
+    ],
+    "officers": {
+      "3125": {
+        "name": "Laschan Diaz-Perez",
+        "badge": "3125",
+        "sex": "F",
+        "race": "W",
+        "age": 27,
+        "injured": false,
+        "killed": false,
+        "rank": "P.O",
+        "duty": "West Patrol",
+        "service_years": 3
+      },
+      "2799": {
+        "name": "Luis Santiago",
+        "badge": "2799",
+        "sex": "M",
+        "race": "W",
+        "age": 39,
+        "injured": false,
+        "killed": false,
+        "rank": "PO",
+        "duty": "East patrol",
+        "service_years": 15
+      },
+      "2265": {
+        "name": "P.O. M. Kuzmicki#2265",
+        "badge": "2265",
+        "sex": "M",
+        "race": "W",
+        "age": 44,
+        "injured": false,
+        "killed": false,
+        "rank": "P.O.",
+        "duty": "E402",
+        "service_years": 10
+      },
+      "SGT": {
+        "name": "Richard Romanski",
+        "badge": "SGT",
+        "sex": "M",
+        "race": "W",
+        "age": 47,
+        "injured": false,
+        "killed": false,
+        "rank": "Sergeant",
+        "duty": "East Patrol Sergeant",
+        "service_years": 22
+      }
+    },
+    "subjects": [
+      {
+        "id": "85-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Other (specify): compliance hol and handcuffing"
+        ],
+        "meta": [
+          "Other unusual condition: Emotionally disturbed female"
+        ],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "NO"
+        ]
+      },
+      {
+        "id": "86-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Other (specify): Compliance hol /handcuffing"
+        ],
+        "meta": [
+          "Other unusual condition: EDP"
+        ],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "SICK CALL"
+        ]
+      },
+      {
+        "id": "87-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [
+          "Other unusual condition: EDP Juvenile Female"
+        ],
+        "sex": "",
+        "race": "",
+        "charges": ""
+      },
+      {
+        "id": "88-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [
+          "Other unusual condition: EDP female"
+        ],
+        "sex": "",
+        "race": "",
+        "charges": ""
+      }
+    ]
+  },
+  "19-025765": {
+    "id": "19-025765",
+    "pages": [
+      89,
+      90
+    ],
+    "time": "14:53",
+    "date": "11/05/2019",
+    "day": "Tuesday",
+    "location": "UNION ST & MARTIN LUTHER KING DR, JERSEY CITY, NJ 07304",
+    "zip": "07304",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "JOSEPH FACCONE #3214 (e-signature)",
+        "officer_sign_date": "Nov 5, 2019 16:25",
+        "supervisor_name": "DWAYNE DOWELL #8254",
+        "supervisor_signature": "DWAYNE DOWELL #8254 (e-signature)"
+      }
+    ],
+    "officers": {
+      "3214": {
+        "name": "Joseph Faccone",
+        "badge": "3214",
+        "sex": "M",
+        "race": "W",
+        "age": 25,
+        "injured": false,
+        "killed": false,
+        "rank": "PO",
+        "duty": "SC27",
+        "service_years": 2
+      },
+      "2798": {
+        "name": "Michael Martucci",
+        "badge": "2798",
+        "sex": "M",
+        "race": "W",
+        "age": 28,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "Street Crimes Unit",
+        "service_years": 2
+      }
+    },
+    "subjects": [
+      {
+        "id": "89-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Other (specify): taken down to the ground"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "2C:12-3",
+          "2C:29-2A"
+        ]
+      },
+      {
+        "id": "90-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold",
+          "Hands/fists"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "2C:12-3; 2C:29-2A"
+        ]
+      }
+    ]
+  },
+  "19-025984": {
+    "id": "19-025984",
+    "pages": [
+      91
+    ],
+    "time": "01:50",
+    "date": "11/08/2019",
+    "day": "Friday",
+    "location": "116 NEWARK AVE, CHRISTOPHER COLUMBUS DR & GROVE ST, JERSEY CITY, NJ 07302",
+    "zip": "07302",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "JOSEPH ROSS #3106 (e-signature)",
+        "officer_sign_date": "Nov 9, 2019 00:57",
+        "supervisor_name": "MAREY PHILLIPS #8215",
+        "supervisor_signature": "MAREY PHILLIPS #8215 (e-signature)"
+      }
+    ],
+    "officers": {
+      "3106": {
+        "name": "Joseph Ross",
+        "badge": "3106",
+        "sex": "M",
+        "race": "P",
+        "age": 34,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "CRT28",
+        "service_years": 3
+      }
+    },
+    "subjects": [
+      {
+        "id": "91-C1",
+        "age": 28,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold",
+          "Other (specify): handcuffs"
+        ],
+        "meta": [
+          "Under the influence"
+        ],
+        "sex": "M",
+        "race": "02",
+        "charges": [
+          "NONE"
+        ]
+      }
+    ]
+  },
+  "19-026209": {
+    "id": "19-026209",
+    "pages": [
+      92,
+      93
+    ],
+    "time": "00:27",
+    "date": "11/11/2019",
+    "day": "Monday",
+    "location": "WEST SIDE AVE & COMMUNIPAW AVE, JERSEY CITY, NJ 07304",
+    "zip": "07304",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "DIYA FLEMING #3150 (e-signature)",
+        "officer_sign_date": "Nov 11, 2019 02:55",
+        "supervisor_name": "IAN GALLAGHER #8064",
+        "supervisor_signature": "IAN GALLAGHER #8064 (e-signature)"
+      }
+    ],
+    "officers": {
+      "3150": {
+        "name": "DIYA FLEMING",
+        "badge": "3150",
+        "sex": "M",
+        "race": "02",
+        "age": 33,
+        "injured": false,
+        "killed": false,
+        "rank": "P.O",
+        "duty": "W501",
+        "service_years": 2
+      },
+      "3139": {
+        "name": "Devon Stevens",
+        "badge": "3139",
+        "sex": "M",
+        "race": "02",
+        "age": 30,
+        "injured": false,
+        "killed": false,
+        "rank": "P.O",
+        "duty": "West 501",
+        "service_years": 2
+      }
+    },
+    "subjects": [
+      {
+        "id": "92-C1",
+        "age": 0,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Other (specify): grabbed,pushe to marked patrol vehicle, and arms straightened behind back."
+        ],
+        "meta": [
+          "Under the influence",
+          "Other unusual condition: yelling, using derogatory language, profanitie and refusing to leave and be helped."
+        ],
+        "sex": "M",
+        "race": "W",
+        "charges": [
+          "2C:33-3 DISORDERLY PERSON"
+        ]
+      },
+      {
+        "id": "93-C1",
+        "age": 0,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": false,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Other (specify): Used physical contact to secure arrest by pushin actor to marked patrol unit to secure arrest"
+        ],
+        "meta": [
+          "Other unusual condition: yelling, using derogatory language, profanitie and refusing to leave and be helped., Under the influence"
+        ],
+        "sex": "M",
+        "race": "W",
+        "charges": [
+          "DISORDERLY CONDUCT"
+        ]
+      }
+    ]
+  },
+  "19-027249": {
+    "id": "19-027249",
+    "pages": [
+      94,
+      95,
+      96
+    ],
+    "time": "08:40",
+    "date": "11/23/2019",
+    "day": "Saturday",
+    "location": "139 CATOR AVE, OCEAN AVE & RUTGERS AVE, JERSEY CITY, NJ 07305",
+    "zip": "07305",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "LOUIS DESTEFANO #2600 (e-signature)",
+        "officer_sign_date": "Dec 30, 2019 10:45",
+        "supervisor_name": "CHRISTOPHER DALTON #8220",
+        "supervisor_signature": "CHRISTOPHER DALTON #8220 (e-signature)"
+      }
+    ],
+    "officers": {
+      "2600": {
+        "name": "Louis De Stefano",
+        "badge": "2600",
+        "sex": "M",
+        "race": "W",
+        "age": 61,
+        "injured": false,
+        "killed": false,
+        "rank": "PO",
+        "duty": "East 202",
+        "service_years": 25
+      },
+      "2802": {
+        "name": "PO MECKA",
+        "badge": "2802",
+        "sex": "M",
+        "race": "W",
+        "age": 61,
+        "injured": false,
+        "killed": false,
+        "rank": "POLICE OFFICER",
+        "duty": "EAST 102",
+        "service_years": 25
+      },
+      "3102": {
+        "name": "Yoell Altomonte",
+        "badge": "3102",
+        "sex": "M",
+        "race": "W",
+        "age": 30,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "East 202",
+        "service_years": 3
+      }
+    },
+    "subjects": [
+      {
+        "id": "94-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [
+          "Other unusual condition: He exhibited a complete disregard for law enforcement believing he was above written law."
+        ],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "RESTING ARREST/ ESCAPE/FTO"
+        ]
+      },
+      {
+        "id": "96-C2",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [
+          "Other unusual condition: uncooperative"
+        ],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "4: 2C:29-2A"
+        ]
+      },
+      {
+        "id": "96-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [
+          "Other unusual condition: uncooperative"
+        ],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "2C:29-2A"
+        ]
+      }
+    ]
+  },
+  "19-027271": {
+    "id": "19-027271",
+    "pages": [
+      98
+    ],
+    "time": "08:07",
+    "date": "11/23/2019",
+    "day": "Saturday",
+    "location": "139 CATOR AVE, OCEAN AVE & RUTGERS AVE, JERSEY CITY, NJ 07305",
+    "zip": "07305",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "CHESTER MECKA #2802 (e-signature)",
+        "officer_sign_date": "Jan 9, 2020 13:33",
+        "supervisor_name": "BRIAN GAJEWSKI #8074",
+        "supervisor_signature": "BRIAN GAJEWSKI #8074 (e-signature)"
+      }
+    ],
+    "officers": {
+      "2802": {
+        "name": "Chester Mecka",
+        "badge": "2802",
+        "sex": "M",
+        "race": "RE",
+        "age": 48,
+        "injured": false,
+        "killed": false,
+        "rank": "po",
+        "duty": "k9",
+        "service_years": 18
+      }
+    },
+    "subjects": [
+      {
+        "id": "98-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Hands/fists",
+          "Other (specify): compliance holds"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "RESISTING ARREST",
+          "OPEN WARRANT"
+        ]
+      }
+    ]
+  },
+  "20-001010": {
+    "id": "20-001010",
+    "pages": [
+      124,
+      125
+    ],
+    "time": "15:19",
+    "date": "01/14/2020",
+    "day": "Tuesday",
+    "location": "RANDOLPH AVE & BRAMHALL AVE, JERSEY CITY, NJ 07304",
+    "zip": "07304",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "MICHAEL RIVERA #8258 (e-signature)",
+        "officer_sign_date": "Jan 15, 2020 02:16",
+        "supervisor_name": "BRIAN CULLINANE #8245",
+        "supervisor_signature": "BRIAN CULLINANE #8245 (e-signature)"
+      }
+    ],
+    "officers": {
+      "8258": {
+        "name": "Michael Rivera",
+        "badge": "8258",
+        "sex": "M",
+        "race": "01",
+        "age": 35,
+        "injured": false,
+        "killed": false,
+        "rank": "Sergeant",
+        "duty": "Inv - Street Crime Unit",
+        "service_years": 12
+      },
+      "2789": {
+        "name": "P.O. Dane Coleman #2789",
+        "badge": "2789",
+        "sex": "M",
+        "race": "W",
+        "age": 36,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "Street Crimes Unit",
+        "service_years": 10
+      }
+    },
+    "subjects": [
+      {
+        "id": "124-C1",
+        "age": null,
+        "weapon": true,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "5"
+        ]
+      },
+      {
+        "id": "125-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Other (specify): Taking actor ou of vehicle"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "2C:39-5B; 2C:58-6.1; 2C:39-3J; 2C:39-4A; 2C:17-2C"
+        ]
+      }
+    ]
+  },
+  "20-007165": {
+    "id": "20-007165",
+    "pages": [
+      126
+    ],
+    "time": "20:05",
+    "date": "04/14/2020",
+    "day": "Tuesday",
+    "location": "JERSEY CITY, NJ 07305",
+    "zip": "07305",
+    "type": [],
+    "signatures": [
+      {
+        "officer_signature": "MATTHEW DESTEFANO #2232 (e-signature)",
+        "officer_sign_date": "Apr 14, 2020 22:22",
+        "supervisor_name": "DOUGLAS PARETTI #8138",
+        "supervisor_signature": "DOUGLAS PARETTI #8138 (e-signature)"
+      }
+    ],
+    "officers": {
+      "2232": {
+        "name": "Matthew DeStefano",
+        "badge": "2232",
+        "sex": "M",
+        "race": "W",
+        "age": 32,
+        "injured": false,
+        "killed": false,
+        "rank": "Police Officer",
+        "duty": "SCU",
+        "service_years": 11
+      }
+    },
+    "subjects": [
+      {
+        "id": "126-C1",
+        "age": null,
+        "weapon": false,
+        "injured": false,
+        "killed": false,
+        "arrested": true,
+        "actions": [
+          "Resisted police officer control"
+        ],
+        "force_received": [
+          "Compliance hold",
+          "Other (specify): TOOK ACTOR TO GROUND"
+        ],
+        "meta": [],
+        "sex": "",
+        "race": "",
+        "charges": [
+          "2C:29-1",
+          "29-2"
+        ]
+      }
+    ]
+  }
+}

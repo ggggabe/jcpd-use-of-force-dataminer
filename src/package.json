@@ -1,0 +1,17 @@
+{
+  "name": "jcpd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "flatten.js",
+  "scripts": {
+    "upload": "node index.js",
+    "test": "node sendToMongo.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "dotenv": "^8.2.0",
+    "mongodb": "^3.6.0"
+  }
+}
